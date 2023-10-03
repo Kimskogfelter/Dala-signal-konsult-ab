@@ -24,6 +24,10 @@ body {
     
 }
 
+.active {
+    border-bottom: solid 1px #3a3a3a;
+}
+
 #nav-bar {
     background-color: white;
 }
