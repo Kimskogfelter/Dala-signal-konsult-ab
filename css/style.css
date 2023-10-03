@@ -9,7 +9,7 @@ header {
     display: flex;
 }
 
-h1 {
+#header {
     color: blue;
     background-color: aqua;
 }
