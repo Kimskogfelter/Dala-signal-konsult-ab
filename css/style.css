@@ -1,18 +1,26 @@
 /* head */
 
 /* body */
+
+body {
+    
+}
 /* header */
 header {
-    background-image: url(../images/puzzle-mania-header-image.jpeg) no-repeat; 
+    background-image: url(../images/puzzle-mania-header-image.jpeg) no-repeat top center/cover; 
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
-#header {
+#header-text {
     color: blue;
     background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     
 }
 
