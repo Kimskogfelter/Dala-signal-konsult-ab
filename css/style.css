@@ -15,7 +15,7 @@ body {
 }
 
 #header-text {
-    color: blue;
+    color: lightcoral;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -32,6 +32,12 @@ body {
     background-color: white;
 }
 /* main content */
+
+/* Puzzle Mania Club content */
+
+#club {
+    color: lightcoral;
+}
 
 /* footer */
 #social-networks {
