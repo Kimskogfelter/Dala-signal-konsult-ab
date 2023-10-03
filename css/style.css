@@ -16,7 +16,7 @@ body {
 
 #header-text {
     color: blue;
-    background-color: aqua;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +27,9 @@ body {
 /* main content */
 
 /* footer */
-#footer {
-    display: flex;
-    align-items: flex-end;
+#social-networks {
+   
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
 }
