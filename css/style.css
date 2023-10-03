@@ -29,7 +29,10 @@ body {
 }
 
 #nav-bar {
-    background-color: white;
+        background-color: white;
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
 }
 /* main content */
 
