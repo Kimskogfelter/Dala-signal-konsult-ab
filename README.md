@@ -22,3 +22,4 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
 
 * BUGS:
   - the whole section for pussle mania club is the color lightcoral. I just want the h2 elements to be that color.
+  - the "#social-networks i" code in css are supose to make the icons bigger and change color and it doesnt happened. 
