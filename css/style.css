@@ -2,9 +2,10 @@
 
 /* body */
 
-body { 
-    
+h2 { 
+    color: lightcoral;
 }
+
 /* header */
 #header {
     background: url(../images/puzzle-mania-header-image.jpeg) no-repeat top center/cover; 
@@ -36,10 +37,19 @@ body {
 }
 /* main content */
 
+/* Info section */
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Puzzle Mania Club content */
 
-#club {
-    color: lightcoral;
+#club { 
+    display: flex;
+    flex-direction: column;
+
 }
 
 /* footer */
