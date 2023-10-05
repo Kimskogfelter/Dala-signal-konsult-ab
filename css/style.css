@@ -3,7 +3,7 @@
 /* body */
 
 h2 { 
-    color: lightcoral;
+    color: #9632f4;
 }
 
 /* header */
@@ -16,7 +16,7 @@ h2 {
 }
 
 #header-text {
-    color: lightcoral;
+    color: #9632f4;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -48,9 +48,14 @@ h2 {
 
 #club { 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     
 
+}
+
+#club div {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* footer */
@@ -66,5 +71,5 @@ h2 {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #9632f4;
 }
