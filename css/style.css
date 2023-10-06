@@ -47,15 +47,23 @@ h2 {
 /* Puzzle Mania Club content */
 
 #club { 
-    display: flex;
-    flex-direction: row;
     
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 100%;
 
 }
 
-#club div {
+#club h2 {
     display: flex;
     justify-content: flex-end;
+}
+
+#club > div {
+   
+justify-content: flex-end;
+    
 }
 
 /* footer */
