@@ -41,11 +41,17 @@ a {
     color: white;
     background-color: #9632f4;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-
-    
+   padding-left: 20px;
 }
+
+#header i {
+    padding-left: 10px;
+
+}
+
+
 
 .active {
     border-bottom: solid 1px white;
