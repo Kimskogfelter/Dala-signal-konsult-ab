@@ -60,20 +60,24 @@ h2 {
     justify-content: flex-end;
 }
 
-#club > div {
-   
-justify-content: flex-end;
-    
+.div-right {
+    display: flex;
+    justify-content: flex-end;
 }
 
 /* footer */
+hr {
+    color: #9632f4;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-   
+    border-top: #9632f4 10px;
+
 }
 
 #social-networks i {

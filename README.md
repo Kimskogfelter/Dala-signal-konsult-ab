@@ -21,8 +21,8 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
   * https://www.pexels.com/sv-se/ for images
 
 * BUGS:
-  - the whole section for pussle mania club is the color lightcoral. I just want the h2 elements to be that color.
-  - the "#social-networks i" code in css are supose to make the icons bigger and change color and it doesnt happened. 
+  - wan to move all divs in the #club section to the right handside by using a class. added the same flex to all divs but only the last one goes to the right handside on mobile version. when i check on a regular website all divs in the club section are to the right handside. 
+
 
 * MEDIA: 
 
