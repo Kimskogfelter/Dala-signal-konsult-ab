@@ -8,12 +8,16 @@
 /* body */
 
 
-h2, h1 {
+h2, h1, h3 {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Young Serif', serif;
     color: #4e6458;
+}
+
+h3 {
+    height: 15px;
 }
 
 p, body {
@@ -116,7 +120,7 @@ a {
 
 }
 
-#club h2 {
+#club h3 {
     display: flex;
     justify-content: flex-end;
 }
