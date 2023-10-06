@@ -21,8 +21,9 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
   * https://www.pexels.com/sv-se/ for images
 
 * BUGS:
-  - wan to move all divs in the #club section to the right handside by using a class. added the same flex to all divs but only the last one goes to the right handside on mobile version. when i check on a regular website all divs in the club section are to the right handside. 
+  - want to move all divs in the #club section to the right handside by using a class. added the same flex to all divs but only the last one goes to the right handside on mobile version. when i check on a regular website all divs in the club section are to the right handside. 
   Got it to work by adding text-align:end to the .div-right class.
+  - the hero image doesnt load. Solution: removed the background color for the div in the #hero-image section
 
 
 * MEDIA: 
