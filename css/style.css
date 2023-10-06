@@ -121,6 +121,12 @@ a {
     padding-left: 5px;
 }
 
+/* meetup section */
+
+#meetup-times h3 {
+    color: #553822;
+}
+
 /* footer */
 
 hr {
