@@ -29,4 +29,5 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
 
 
 * COLOR SCHEME:
- - 
+
+* #9632f4 for headers, nav-meny and icons
