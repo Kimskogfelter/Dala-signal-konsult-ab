@@ -63,9 +63,11 @@ h2 {
 .div-right {
     display: flex;
     justify-content: flex-end;
+    text-align: end;
 }
 
 /* footer */
+
 hr {
     color: #9632f4;
 }
