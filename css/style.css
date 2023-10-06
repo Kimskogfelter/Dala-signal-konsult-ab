@@ -72,6 +72,7 @@ p, body, a {
 #nav-bar a {
     color: #97afa7;
     padding: 1px;
+    text-decoration: none;
    
 }
 /* main content */
@@ -91,20 +92,7 @@ p, body, a {
 
 /* Info section */
 
-#info {
-    display: flex;
-    flex-direction: column;
-}
 
-#info h2, i {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-#info i {
-    height: 24px;
-}
 
 /* Puzzle Mania Club section */
 
