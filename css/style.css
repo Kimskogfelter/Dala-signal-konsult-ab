@@ -1,9 +1,31 @@
-/* General styles */
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
+
+
 
 /* body */
 
 h2 { 
     color: #9632f4;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Young Serif', serif;
+}
+
+p {
+
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header */
@@ -26,7 +48,7 @@ h2 {
 }
 
 .active {
-    border-bottom: solid 1px #3a3a3a;
+    border-bottom: solid 1px white;
 }
 
 #nav-bar {
