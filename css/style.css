@@ -7,18 +7,16 @@
 
 /* body */
 
-h2 { 
-    color: #9632f4;
-}
 
-body {
+h2, h1 {
     font-family: 'Lato', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Oswald', sans-serif;
     font-family: 'Young Serif', serif;
+    color: #9632f4;
 }
 
-p {
+p, body {
 
     font-family: 'Montserrat', sans-serif;
     
@@ -84,7 +82,7 @@ a {
     flex-direction: column;
 }
 
-/* Puzzle Mania Club content */
+/* Puzzle Mania Club section */
 
 #club { 
     
