@@ -56,10 +56,13 @@ a {
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
+        padding-right: 30px;
 }
 
 #nav-bar a {
     color: white;
+    padding: 1px;
+   
 }
 /* main content */
 
