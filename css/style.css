@@ -2,10 +2,11 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300&family=Young+Serif&display=swap');
 
 
 
-/* body */
+/* fonts body */
 
 
 h2, h1, h3 {
@@ -20,14 +21,10 @@ h3 {
     height: 15px;
 }
 
-p, body {
+p, body, a {
 
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-a {
-    font-family: 'Montserrat', sans-serif;
+        font-family: 'Rubik', sans-serif;
+        
 }
 
 
@@ -139,6 +136,7 @@ a {
 
 #meetup-times {
     background: url(../images/meetup-times-img.jpeg) center/ cover;
+    background-color: #181919 transparent;
     width: 100%;
     
 }
