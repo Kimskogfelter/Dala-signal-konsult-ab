@@ -30,10 +30,14 @@ h2 {
 }
 
 #nav-bar {
-        background-color: white;
+        background-color: #9632f4;
         display: flex;
         justify-content: space-evenly;
         list-style-type: none;
+}
+
+#nav-bar a {
+    color: white;
 }
 /* main content */
 
