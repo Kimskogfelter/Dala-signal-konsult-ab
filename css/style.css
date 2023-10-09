@@ -55,6 +55,10 @@ p, body, a {
 
 }
 
+#dropdown-menu {
+    display: none;
+}
+
 .hidden-navmenu {
     
     display: none;
