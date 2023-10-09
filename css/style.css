@@ -60,7 +60,7 @@ p, body, a {
 
 }
 
-/* centers the bars icon */
+/* centers the navmenu icon */
 #label-checkbox {
     width: 40px;
     display: flex;
@@ -134,9 +134,11 @@ nav {
 #hero {
     background: url(../images/hero-img.jpeg) no-repeat center/cover;
     width: 100%;
-    height: 400px;
+    height: 350px;
     display: flex;
     margin-top: 70px;
+
+    
 }
 
 
