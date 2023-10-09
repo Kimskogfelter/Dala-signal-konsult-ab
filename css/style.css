@@ -35,7 +35,7 @@ p, body, a {
     height: 70px;
     display: flex;
     flex-direction: row;
-    border-bottom: #4e6458 1px;
+    border-bottom: #4e6458 2px solid;
     position: fixed;
     top: 0;
     left: 0;
@@ -77,7 +77,7 @@ p, body, a {
 
 .hidden-navmenu {
        
-    
+    display: none;
 }
 
 /* border under active nav-menu */
