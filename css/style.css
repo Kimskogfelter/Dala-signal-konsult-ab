@@ -28,15 +28,17 @@ p, body, a {
 }
 
 
-
 /* header */
 #header {
     background: white no-repeat top center/cover; 
     width: 100%;
     height: 70px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border-bottom: #4e6458 1px;
+    position: fixed;
+    top: 0;
+
     }
 
 
@@ -47,43 +49,75 @@ p, body, a {
     justify-content: flex-start;
     align-items: center;
    padding-left: 20px;
+   width: 280px;
 }
    
-
+/* bars icon next to header */
 #header i {
-    padding-left: 25px;
+    padding-left: 15px;
+    font-size: 200%;
 
 }
 
-#dropdown-menu {
+/* centers the bars icon */
+#label-checkbox {
+    width: 40px;
+    display: flex;
+    align-self: center;
+}
+
+/* hides checkbox next to header */
+#checkbox-header {
     display: none;
 }
+
+/* hides nav-menu when not clicked */
 
 .hidden-navmenu {
     
-    display: none;
+   
 }
 
-
-
+/* border under active nav-menu*/
 .active {
     border-bottom: solid 1px #97afa7;
 }
 
-#nav-bar {
+/* navbar menu */ 
+#nav-menu {
         background-color: white;
         display: flex;
-        justify-content: space-evenly;
         list-style-type: none;
         padding-right: 30px;
+        flex-direction: column;
+        width: 300px;
+        margin-bottom: 0%;
+        border-bottom: #4e6458 1px;
+        
 }
 
-#nav-bar a {
+#nav-menu a {
     color: #97afa7;
     padding: 1px;
     text-decoration: none;
    
 }
+
+nav li {
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+/* navmenu dropdown */
+
+nav {
+    position: absolute;
+    margin-top: 50px;
+}
+
+
+
 /* main content */
 
 
@@ -94,6 +128,7 @@ p, body, a {
     width: 100%;
     height: 400px;
     display: flex;
+    margin-top: 70px;
 }
 
 
