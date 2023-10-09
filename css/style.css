@@ -55,9 +55,9 @@ p, body, a {
 
 }
 
-#header nav {
+.hidden-navmenu {
     
-    
+    display: none;
 }
 
 
