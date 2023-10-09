@@ -38,6 +38,7 @@ p, body, a {
     border-bottom: #4e6458 1px;
     position: fixed;
     top: 0;
+    left: 0;
 
     }
 
@@ -68,19 +69,21 @@ p, body, a {
 
 /* hides checkbox next to header */
 #checkbox-header {
+
     display: none;
 }
 
 /* hides nav-menu when not clicked */
 
 .hidden-navmenu {
+       
     
-   
 }
 
-/* border under active nav-menu*/
+/* border under active nav-menu */
 .active {
-    border-bottom: solid 1px #97afa7;
+    border-bottom: solid 2px #97afa7;
+    
 }
 
 /* navbar menu */ 
@@ -90,9 +93,11 @@ p, body, a {
         list-style-type: none;
         padding-right: 30px;
         flex-direction: column;
-        width: 300px;
+        width: 310px;
         margin-bottom: 0%;
-        border-bottom: #4e6458 1px;
+        border-bottom: #4e6458 3px solid;
+        left:0;
+        right: 0;
         
 }
 
@@ -107,6 +112,7 @@ nav li {
     padding-bottom: 10px;
     justify-content: flex-end;
     display: flex;
+    
 }
 
 /* navmenu dropdown */
