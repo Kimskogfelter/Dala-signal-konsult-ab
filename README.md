@@ -33,3 +33,14 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
 * COLOR SCHEME: 
   - #9632f4 for the font for headers, nav-meny and icons
   - #97afa7 for navigation menus font and social media icons in the footer
+
+
+* DEPLOYMENT:
+   1. Go to the puzzle mania repository in Github: https://github.com/Kimskogfelter/Puzzle-Mania
+   2. Select Settings in the navigation menu at the top. 
+   3. Select Pages at the left handside of the website.
+   4. Choose: Deploy from a branch as Source.
+   5. Choose: Main as branch and /root as folder and press save. 
+   6. Wait a few minutes and press the Code menu to the top left. 
+   7. At the right handside go to Deployment.
+   8. Then press the /images/deployment-icon.jpg to live website.

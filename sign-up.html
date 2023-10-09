@@ -6,54 +6,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Puzzle Mania</title>
+    <!-- link to favicon.io -->
+    <link rel="icon" type="puzzle piece icon" href="/images/favicon.io.jpg">
+
+    <!-- link to css file -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- link to kit from Font Awesome -->
+    <script src="https://kit.fontawesome.com/114b037aa4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
     <!-- header -->
     <header id="header">
-        <h1 id="header-text">Welcome to Puzzle Mania</h1>
-        <nav>
-            <input type="checkbox">
-            <ul id="nav-bar">
-                <li><a href="index.html" >Home</a></li>
+        <h1 id="header-text">PUZZLE MANIA </h1>
+        <!--makes the navmenu toggle-->
+        <input type="checkbox" id="checkbox-navmenu" name="checkbox-navmenu">
+        <!--bars icon for the checkbox-->
+        <label for="checkbox-navmenu" id="label-checkbox"><i class="fa-solid fa-bars"
+                style="color:#4e6458;"></i></label>
+        <nav class="hidden-navmenu">
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="meet-and-greet.html">Meet and Greet</a></li>
-                <li><a href="sign-up.html" class="active">Sign up here!</a></li>
+                <li><a href="sign-up.html" class="active">Sign up</a></li>
             </ul>
         </nav>
     </header>
+    <hr>
+
     <!-- main content -->
 
-    <!-- info content -->
-    <section>
+    <!-- hero section -->
+    <div id="hero">
+
+    </div>
+
+    <!-- info section -->
+    <section id="info">
         <div>
+            <h2>FOR ALL WHO LOVE TO PUZZLE <i class="fa-regular fa-heart"></i></h2>
             <p>This is Puzzle Mania, a website for everyone who loves puzzles! Come and join our club for special offers
                 and meet and greets with other members.</p>
         </div>
     </section>
 
-    <!-- Puzzle Mania Club content -->
-    <section>
+    <!-- Puzzle Mania Club section -->
+    <section id="club">
         <div>
-            <h1 id="club">Puzzle Mania Club</h1>
+            <h3>PUZZLE MANIA CLUB <i class="fa-solid fa-people-roof"></i></h3>
+            <hr>
+            <div class="div-right">
+                <p>Do you love to puzzle but dont got any friends who do? Join our club and find like-minded people.</p>
+            </div>
+            <div class="div-right">
+                <p>When you are a member you get exclusive discounts and offers on new and pre-released puzzles.
+                    You can get tips and tricks from the other members on how to complete a tricky puzzle.</p>
+            </div>
+            <div class="div-right">
+                <p>We also have club nights were we all meet up to tackle the most difficult puzzles, or just talks and
+                    enjoy eachothers
+                    company.
+
+                </p>
+            </div>
+            <div class="div-right">
+                <p>If this sounds like something for you, press <strong><a href="sign-up.html">here</a></strong><br>to
+                    go to the sign up page.</p>
+            </div>
+
         </div>
 
+    </section>
+
+    <!-- meet and greet section -->
+    <section id="meetandgreet">
+        <h3>MEET AND GREET <i class="fa-regular fa-handshake"></i></h3>
+        <hr>
+        <div>
+            <p>Are you curious about our club or got any questions? Join us on our meet-and-greets to meet us in person.
+                To see more photos from the meetings press <strong><a href="meet-and-greet.html">here</a></strong>. </p>
+        </div>
+    </section>
+
+    <!-- meetup times section-->
+    <section id="meetup-times">
+        <div class="meetup-text-right">
+            <h3>Monday</h3>
+            <p>Time: 7pm</p>
+            <p>Location: Clubhouse address 10</p>
+        </div>
+        <div class="meetup-text-right">
+            <h3>Tuesday</h3>
+            <p>Time: 5pm</p>
+            <p>Location: Clubhouse address 10</p>
+        </div>
+        <div class="meetup-text-right">
+            <h3>Wednesday</h3>
+            <p>Time: 7pm</p>
+            <p>Location: Club house address 10</p>
+        </div>
+        <div class="meetup-text-right">
+            <h3>Thursday</h3>
+            <p>Time: 6pm</p>
+            <p>Location: Club house address 10</p>
+        </div>
+        <div class="meetup-text-right">
+            <h3>Friday</h3>
+            <p>Time: 3pm</p>
+            <p>Location: Club house address 10</p>
+        </div>
     </section>
 
     <!-- footer -->
 
     <footer id="footer">
+        <hr>
+        <!-- copied this code below from Love Running project for the social media links: URL: https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git -->
         <ul id="social-networks">
-            <li> <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
-                Facebook </li>
-            <li> <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a> Instagram </li>
-            <li> <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
-                Twitter </li>
+                        class="fa-brands fa-square-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i
+                        class="fa-brands fa-square-twitter"></i></a>
+            </li>
+
+
+
         </ul>
     </footer>
 </body>
