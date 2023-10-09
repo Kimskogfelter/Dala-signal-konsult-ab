@@ -170,10 +170,22 @@ nav {
     padding-left: 5px;
 }
 
+/* removed underline under <a> and changed color */
+#club a {
+    color: #97afa7;
+    padding: 1px;
+    text-decoration: none;
+}
+
 
 /* meet and greet section */
 
-
+/* removed underline under <a> and changed color */
+#meetandgreet a {
+    color: #97afa7;
+    padding: 1px;
+    text-decoration: none;
+}
 
 /* meetup section */
 
