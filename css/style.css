@@ -300,18 +300,24 @@ img {
     height: 100vh;
 }
 
-#signup div {
+#signup h2 {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#signup form {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    padding-top: 40px;
    
 }
 
-#signup h2 {
-    margin-top: 80px;
-    color: white;
-}
+
 
 #signup input {
     width: 200px;
