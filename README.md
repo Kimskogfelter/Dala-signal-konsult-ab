@@ -12,6 +12,7 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
 
 * CODE:
   * The code for the social media links in the footer are taken from Love Running project. URL: https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git
+  * The hexagon shape for the images was taken from:  <https://css-tricks.com/css-grid-and-custom-shapes-part-1/>
 
 
 * TECHNOLOGIES
