@@ -61,6 +61,7 @@ p, body, a {
 
 }
 
+
 /* centers the navmenu icon */
 #label-checkbox {
     width: 40px;
@@ -99,7 +100,19 @@ p, body, a {
     color: #97afa7;
     padding: 1px;
     text-decoration: none;
+    
    
+}
+
+/* hover effect on nav menu */
+#nav-menu a:hover {
+    background-color: #cab5b177;
+}
+
+/* actice link color on nav menu */
+
+#nav-menu a:active {
+    background-color: #cab5b177;
 }
 
 nav li {
@@ -282,6 +295,19 @@ hr {
     margin-top: 75px;
     display: flex;
     justify-content: center;
+}
+
+img {
+    width: 100vw;
+    
+}
+
+/* SIGN-UP.HTML PAGE */
+
+#signup {
+    background: url(/images/pink-heart-puzzle-piece.webp);
+    width: 100vw;
+    height: 100vh;
 }
 
 /* Media query: large or landscape phones (576px and up) */
