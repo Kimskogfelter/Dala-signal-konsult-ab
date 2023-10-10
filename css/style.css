@@ -310,4 +310,16 @@ img {
     height: 100vh;
 }
 
+#signup div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 73px;
+}
+
+#signup input {
+    width: 200px;
+    height: 20px;
+}
+
 /* Media query: large or landscape phones (576px and up) */
