@@ -1,8 +1,6 @@
 
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@300;600&family=Oswald:wght@200;300;400;500;600;700&family=Rubik:wght@300&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@600&display=swap');
 
 
 
@@ -10,11 +8,9 @@
 
 
 h2, h1, h3 {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Young Serif', serif;
+    font-family: 'Raleway', sans-serif;
     color: #4e6458;
+    
 }
 
 h3 {
@@ -31,12 +27,12 @@ p, body, a {
 /* INDEX.HTML PAGE */ 
 /* header */
 #header {
-    background:#4e6458  top center/cover; 
+    background:#ffffff  top center/cover; 
     width: 100%;
-    height: 70px;
+    height: 50px;
     display: flex;
     flex-direction: row;
-    border-bottom: white 3px solid;
+    border-bottom: #4e6458 3px solid;
     position: fixed;
     top: 0;
     left: 0;
@@ -45,8 +41,8 @@ p, body, a {
 
 
 #header-text {
-    color:white;
-    background-color: #4e6458;
+    color:#4e6458;
+    background-color: #ffffff;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -77,27 +73,26 @@ p, body, a {
 
 /* border under active nav-menu */
 .active {
-    border-bottom: solid 2px white;
-    
+    border-bottom: solid 2px #4e6458;
 }
 
 /* navbar menu */ 
 #nav-menu {
-        background-color: #4e6458;
-        display: flex;
-        list-style-type: none;
-        padding-right: 30px;
-        flex-direction: column;
-        width: 310px;
-        margin-bottom: 0%;
-        border-bottom: white 3px solid;
-        left:0;
-        right: 0;
-        
+
+    background-color: white;
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+    flex-direction: column;
+    width: 310px;
+    margin-bottom: 0%;
+    border-bottom: #4e6458 3px solid;
+    left:0;
+    right: 0;      
 }
 
 #nav-menu a {
-    color: white;
+    color: #97afa7;
     padding: 1px;
     text-decoration: none;
     
@@ -105,13 +100,13 @@ p, body, a {
 }
 
 /* hover effect on nav menu */
-#nav-menu a:hover {
+#nav-menu li:hover {
     background-color: #cab5b177;
 }
 
 /* actice link color on nav menu */
 
-#nav-menu a:active {
+#nav-menu li:active {
     background-color: #cab5b177;
 }
 
@@ -126,7 +121,7 @@ nav li {
 
 nav {
     position: absolute;
-    margin-top: 50px;
+    margin-top: 40px;
     background-color: white;
     width: 100%;
     display: none;
@@ -149,7 +144,7 @@ nav {
     background: url(../images/hero-img.jpeg) no-repeat center/cover;
     width: 100vw;
     height: 350px;
-    margin-top: 62px;
+    margin-top: 42px;
     
 }
 
@@ -187,28 +182,19 @@ nav {
     text-align: end;
 }
 
-.div-right img {
+#club-image {
     display: flex;
     justify-content: center;
-    width: 250px;
-    height: 250px;
-    /* hexagon shape */
-    width: var(--s);
-    aspect-ratio: 1.15;
-    object-fit: cover;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
-
 }
 
-#pink-hexagon {
-    background-color: #cab5b1;
-    display: flex;
-    /* hexagon shape */
-    width: var(--s);
-    aspect-ratio: 1.15;
-    object-fit: cover;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+#club-image img {
 
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 25px;
+    
 }
 
 #club i {
@@ -303,7 +289,7 @@ img {
 }
 
 #firstimage {
-    margin-top: 65px;
+    margin-top: 45px;
 }
 
 /* SIGN-UP.HTML PAGE */
@@ -340,6 +326,7 @@ img {
     border-radius: 20px;
     border-color: white;
     color: white;
+    padding: 10px 15px;
    
 }
 

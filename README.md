@@ -30,11 +30,9 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
 
 * MEDIA: 
 
-
 * COLOR SCHEME: 
   - #9632f4 for the font for headers, nav-meny and icons
   - #97afa7 for navigation menus font and social media icons in the footer
-
 
 * DEPLOYMENT:
    1. Go to the puzzle mania repository in Github: https://github.com/Kimskogfelter/Puzzle-Mania
