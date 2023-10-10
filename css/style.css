@@ -329,11 +329,14 @@ img {
 #signup input {
     width: 200px;
     height: 20px;
+    border-radius: 20px;
 }
 
 #signup button {
     font-size: 110%;
     background-color: #cab5b1;
+    border-radius: 20px;
+    border-color: #4e6458;
 }
 
 /* hexagon shaped background */
