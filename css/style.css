@@ -314,7 +314,12 @@ img {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 73px;
+    align-items: center;
+   
+}
+
+#signup h2 {
+    margin-top: 80px;
 }
 
 #signup input {
@@ -322,4 +327,21 @@ img {
     height: 20px;
 }
 
+#signup button {
+    font-size: 110%;
+    background-color: #cab5b1;
+}
+
+/* hexagon shaped background */
+#signup-hexagon {
+    background-color: #97afa786;
+    width: 250px;
+    height: 300px;
+    margin-top: 0;
+    /* hexagon shape */
+        width: var(--s);
+        aspect-ratio: 1.15;
+        object-fit: cover;
+        clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+}
 /* Media query: large or landscape phones (576px and up) */
