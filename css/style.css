@@ -309,7 +309,7 @@ img {
 /* SIGN-UP.HTML PAGE */
 
 #signup {
-    background: url(/images/pink-heart-puzzle-piece.webp);
+    background: url(/images/4-colors-with-puzzlepieces.webp);
     width: 100vw;
     height: 100vh;
 }
@@ -324,19 +324,26 @@ img {
 
 #signup h2 {
     margin-top: 80px;
+    color: white;
 }
 
 #signup input {
     width: 200px;
     height: 20px;
     border-radius: 20px;
+    border-color: white;
 }
 
 #signup button {
     font-size: 110%;
     background-color: #cab5b1;
     border-radius: 20px;
-    border-color: #4e6458;
+    border-color: white;
+    color: white;
+}
+
+#signup label {
+    color: white;
 }
 
 /* hexagon shaped background */
