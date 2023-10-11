@@ -246,18 +246,18 @@ nav {
 }
 
 
-/* meet and greet section */
+/* safari section */
 
 /* removed underline under <a> and changed color */
-#meetandgreet a {
+#safari a {
     color: #97afa7;
     padding: 1px;
     text-decoration: none;
 }
 
-/* meetup section */
+/* safari times section */
 
-#meetup-times {
+#safari-times {
     background: url(../images/lion.jpeg) center/ cover;
     width: 100%;
     display: flex;
@@ -265,11 +265,11 @@ nav {
 
 }
 
-#meetup-times h3 {
+#safari-times h3 {
     color: #f0c66dd0;
 }
 
-#meetup-times div {
+#safari-times div {
     border: white solid 2px;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.726);
@@ -277,7 +277,7 @@ nav {
 
 }
 
-#meetup-times p {
+#safari-times p {
     color: white;
 }
 
