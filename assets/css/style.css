@@ -169,15 +169,20 @@ nav {
 
 #hero-div-bg {
     background-color: #4e6458b6;
-    width: 50vw;
+    width: 60vw;
     display: flex;
     justify-content: center;
     color: white;
     margin-left: 20px;
     margin-bottom: 20px;
-    padding: 20px;
-    
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
 
+#hero-div-bg p {
+    display: flex;
+    line-height: 1.5;
 }
 
 
