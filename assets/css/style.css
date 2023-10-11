@@ -197,9 +197,9 @@ nav {
 }
 
 
-/* Puzzle Mania Club section */
+/* Retreat section */
 
-#club {
+#retreat {
 
     display: flex;
     justify-content: flex-end;
@@ -208,7 +208,7 @@ nav {
 
 }
 
-#club h3 {
+#retreat h3 {
     display: flex;
     justify-content: flex-end;
 }
@@ -219,12 +219,12 @@ nav {
     text-align: end;
 }
 
-#club-image {
+#retreat-image {
     display: flex;
     justify-content: center;
 }
 
-#club-image img {
+#retreat-image img {
 
     display: flex;
     justify-content: center;
@@ -234,19 +234,19 @@ nav {
 
 }
 
-#club i {
+#retreat i {
     padding-left: 5px;
 }
 
 /* removed underline under <a> and changed color */
-#club a {
+#retreat a {
     color: #97afa7;
     padding: 1px;
     text-decoration: none;
 }
 
 
-/* safari section */
+/* Safari section */
 
 /* removed underline under <a> and changed color */
 #safari a {
@@ -284,7 +284,7 @@ nav {
 
 
 
-/* footer */
+/* Footer */
 
 hr {
     color: #97afa7;
