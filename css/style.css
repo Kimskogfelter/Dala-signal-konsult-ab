@@ -162,6 +162,21 @@ nav {
     width: 100vw;
     height: 350px;
     margin-top: 42px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+#hero-div-bg {
+    background-color: #4e6458b6;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    
 
 }
 
@@ -252,7 +267,7 @@ nav {
 #meetup-times div {
     border: white solid 2px;
     justify-content: flex-end;
-    background-color: rgba(0, 0, 0, 0.822);
+    background-color: rgba(0, 0, 0, 0.726);
     text-align: center;
 
 }

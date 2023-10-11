@@ -21,6 +21,7 @@ You can be a total newbie and still join the puzzle mania club. It's easy to und
   * https://jigsaw.w3.org/css-validator/ to validate css code
   * https://www.pexels.com/sv-se/ for images
   * favicon from: <https://fontawesome.com/icons/puzzle-piece?f=classic&s=solid&pc=%234e6858>
+  * used https://favicon.io/favicon-converter/ to generate the favicon
 
 * BUGS:
   - want to move all divs in the #club section to the right handside by using a class. added the same flex to all divs but only the last one goes to the right handside on mobile version. when i check on a regular website all divs in the club section are to the right handside. 
