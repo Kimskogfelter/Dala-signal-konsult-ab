@@ -26,6 +26,7 @@ a {
 
 }
 
+
 /* overrides the default browser styles */
 
 body {
@@ -41,15 +42,16 @@ body {
 }
 
 
+
 /* INDEX.HTML PAGE */
 /* header */
 #header {
-    background: #ffffff top center/cover;
+    background: #4e6458 top center/cover;
     width: 100%;
     height: 50px;
     display: flex;
     flex-direction: row;
-    border-bottom: #4e6458 3px solid;
+    border-bottom: #45534b 3px solid;
     position: fixed;
     top: 0;
     left: 0;
@@ -58,8 +60,8 @@ body {
 
 
 #header-text {
-    color: #4e6458;
-    background-color: #ffffff;
+    color: white;
+    background-color: #4e6458;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -90,26 +92,26 @@ body {
 
 /* border under active nav-menu */
 .active {
-    border-bottom: solid 2px #4e6458;
+    border-bottom: solid 2px white;
 }
 
 /* navbar menu */
 #nav-menu {
 
-    background-color: white;
+    background-color: #4e6458;
     display: flex;
     list-style-type: none;
     padding-right: 30px;
     flex-direction: column;
     width: 310px;
     margin-bottom: 0%;
-    border-bottom: #4e6458 3px solid;
+    border-bottom: #45534b 3px solid;
     left: 0;
     right: 0;
 }
 
 #nav-menu a {
-    color: #97afa7;
+    color: white;
     padding: 1px;
     text-decoration: none;
 
