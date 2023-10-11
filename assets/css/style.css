@@ -190,11 +190,24 @@ nav {
 
 /* Info section */
 
+#info div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 #info h2 {
     display: flex;
     text-align: center;
+    justify-content: center;
 
 }
+
+#info p {
+    margin: 8px;
+}
+
+
 
 
 /* Retreat section */
