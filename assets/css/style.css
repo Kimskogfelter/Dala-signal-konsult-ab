@@ -348,10 +348,14 @@ img {
 /* BOOKING-PAGE.HTML PAGE */
 
 #bookingpage {
-    background: url(/images/4-colors-with-puzzlepieces.webp);
+    background: url(../images/cheetah-predator-wild-animal-speed-59952.jpeg);
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 #bookingpage h2 {
     margin-top: 50px;
@@ -381,7 +385,7 @@ img {
 
 #bookingpage button {
     font-size: 110%;
-    background-color: #cab5b1;
+    background-color: #4e6458;
     border-radius: 20px;
     border-color: white;
     color: white;
@@ -393,17 +397,13 @@ img {
     color: white;
 }
 
-/* hexagon shaped background */
-#bookingpage-hexagon {
-    background-color: #97afa786;
+/* transparent background */
+#bookingpage-bg {
+    background-color: #97afa7d0;
     width: 250px;
     height: 300px;
     margin-top: 0;
-    /* hexagon shape */
-    width: var(--s);
-    aspect-ratio: 1.15;
-    object-fit: cover;
-    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0 50%);
+    
 }
 
 /* Media query: large or landscape phones (576px and up) */
