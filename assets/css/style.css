@@ -490,12 +490,6 @@ img {
 
  }
 
-  #thank-you-page h2 {
-      margin-top: 5px;
-      margin-bottom: 40px;
-      color: white;
-  }
-
  #thank-you-div-bg {
 
      background-color: #97afa7d0;
@@ -510,8 +504,20 @@ img {
 
  }
 
+  #thank-you-page h2 {
+      margin-top: 5px;
+      margin-bottom: 40px;
+      color: white;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      
+  }
+
+
+
  #thank-you-div-bg p {
-     color: white;
+    color: white;
     line-height: 1;
  }
 

@@ -1,12 +1,10 @@
 Welcome to my first project:
 
-Puzzle Mania!
+SAFARI RETREAT!
 
 * PURPOSE:
 
-It's a website for all people who loves to puzzle, or are curious about it and might want to start to puzzle themselfes. 
-You can be a total newbie and still join the puzzle mania club. It's easy to understand what the websites purpose. It has a navigation meny at the top of the website where you can read more about what happends at meet and greets or even sign up to join the puzzle club.  
-
+It's a website for people who are looking forward to relax in the sun or go on a adventure and join the safaris. Or maybe both! 
 * UX DESIGN:
 
 
