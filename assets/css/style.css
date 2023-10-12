@@ -348,7 +348,7 @@ img {
 /* BOOKING-PAGE.HTML PAGE */
 
 #bookingpage {
-    background: url(../images/cheetah-predator-wild-animal-speed-59952.jpeg);
+    background: url(../images/cheetah-predator-wild-animal-speed-59952.jpeg) no-repeat;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -358,7 +358,7 @@ img {
 
 
 #bookingpage h2 {
-    margin-top: 50px;
+    margin-top: 20px;
     color: white;
     display: flex;
     justify-content: center;
@@ -401,9 +401,28 @@ img {
 #bookingpage-bg {
     background-color: #97afa7d0;
     width: 250px;
-    height: 300px;
+    height: 520px;
     margin-top: 0;
     
+}
+
+#safari-radiobuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+}
+
+#safari-radiobuttons input {
+    width: 30px;
+    margin: 16px;
+    margin-right: 5px;
+}
+
+#safari-radiobuttons p {
+    width: 50px;
+    display: flex;
+    text-align: center;
 }
 
 /* Media query: large or landscape phones (576px and up) */
