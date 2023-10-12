@@ -425,10 +425,21 @@ img {
     text-align: center;
 }
 
+/* CONTACT-US.HTML */
+
+#contact-us div {
+    
+    background-color: #97afa7d0;
+        width: 250px;
+        height: 520px;
+        margin-top: 0;
+
+}
+
  /* THANKYOU-PAGE.HTML */
 
  #thank-you-div-bg {
-    
+
         background-color: #97afa7d0;
         width: 250px;
         height: 520px;
