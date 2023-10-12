@@ -478,13 +478,43 @@ img {
  /* THANKYOU-PAGE.HTML */
 
 
- #thank-you-div-bg {
+ #thank-you-page {
+     background: url(../images/man-and-woman-doing-yoga.jpeg);
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
 
-        background-color: #97afa7d0;
-        width: 250px;
-        height: 520px;
-        margin-top: 0;
 
  }
+
+  #thank-you-page h2 {
+      margin-top: 5px;
+      margin-bottom: 40px;
+      color: white;
+  }
+
+ #thank-you-div-bg {
+
+     background-color: #97afa7d0;
+     width: 250px;
+     height: 300px;
+     margin-top: 0;
+     padding: 10px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+
+ }
+
+ #thank-you-div-bg p {
+     color: white;
+    line-height: 1;
+ }
+
+
 
 /* Media query: large or landscape phones (576px and up) */
