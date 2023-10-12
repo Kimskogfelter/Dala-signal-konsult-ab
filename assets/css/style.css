@@ -58,6 +58,12 @@ body {
 
 }
 
+#header-text a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
 
 #header-text {
     color: white;
