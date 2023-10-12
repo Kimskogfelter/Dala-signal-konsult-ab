@@ -119,13 +119,14 @@ body {
 }
 
 /* hover effect on nav menu */
-#nav-menu li:hover {
+#nav-menu a:hover {
     background-color: #cab5b177;
+    border-radius: 20px;
 }
 
 /* actice link color on nav menu */
 
-#nav-menu li:active {
+#nav-menu a:active {
     background-color: #cab5b177;
 }
 
