@@ -454,13 +454,15 @@ img {
         
 }
 
-#contact-us-bg-img p, h2 {
+#contact-us-bg-img p {
     color: white;
 }
 
-#contact-us-bg-img h2 {
+
+#contact-us-bg-img h2{
     margin-top: 5px;
     margin-bottom: 40px;
+    color: white;
 }
 
  
