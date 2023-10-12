@@ -328,7 +328,7 @@ hr {
 
 }
 
-/* MEET-AND-GREET.HTML PAGE */
+/* SAFARI-GALLERY.HTML PAGE */
 
 #meet-and-greet-gallery-heading {
     margin-top: 75px;
@@ -345,15 +345,15 @@ img {
     margin-top: 45px;
 }
 
-/* SIGN-UP.HTML PAGE */
+/* BOOKING-PAGE.HTML PAGE */
 
-#signup {
+#bookingpage {
     background: url(/images/4-colors-with-puzzlepieces.webp);
     width: 100vw;
     height: 100vh;
 }
 
-#signup h2 {
+#bookingpage h2 {
     margin-top: 50px;
     color: white;
     display: flex;
@@ -361,7 +361,7 @@ img {
     padding-top: 50px;
 }
 
-#signup form {
+#bookingpage form {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -372,14 +372,14 @@ img {
 
 
 
-#signup input {
+#bookingpage input {
     width: 200px;
     height: 20px;
     border-radius: 20px;
     border-color: white;
 }
 
-#signup button {
+#bookingpage button {
     font-size: 110%;
     background-color: #cab5b1;
     border-radius: 20px;
@@ -389,12 +389,12 @@ img {
 
 }
 
-#signup label {
+#bookingpage label {
     color: white;
 }
 
 /* hexagon shaped background */
-#signup-hexagon {
+#bookingpage-hexagon {
     background-color: #97afa786;
     width: 250px;
     height: 300px;
