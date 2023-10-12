@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari Retreat</title>
+    <!-- link to favicon.io -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" type="sun icon" href="assets/favicon.ico/favicon.ico">
+
+
+    <!-- link to css file -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- link to kit from Font Awesome -->
+    <script src="https://kit.fontawesome.com/114b037aa4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header -->
+    <header id="header">
+        <h1 id="header-text">SAFARI RETREAT</h1>
+        <!--makes the navmenu toggle-->
+        <input type="checkbox" id="checkbox-navmenu" name="checkbox-navmenu">
+        <!--bars icon for the checkbox-->
+        <label for="checkbox-navmenu" id="label-checkbox"><i class="fa-solid fa-bars" style="color:white;"></i></label>
+        <nav class="hidden-navmenu">
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="safari-gallery.html">Safari gallery</a></li>
+                <li><a href="booking-page.html">Booking page</a></li>
+                <li><a href="contact-us.html" class="active">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main content -->
+
+    <!-- booking section -->
+
+    <section id="bookingpage">
+        <div>
+            <h2>BOOKING PAGE</h2>
+            <div id="bookingpage-bg">
+                <form action="https://formdump.codeinstitute.net" method="get">
+                    <label for="firstname"><strong>First Name:</strong></label>
+                    <input type="text" name="firstname" id="firstname" required>
+                    <br>
+                    <label for="lastname"> <strong>Last Name:</strong></label>
+                    <input type="text" name="lastname" id="lastname" required>
+                    <br>
+                    <label for="emailaddress"><strong>Email Address:</strong></label>
+                    <input type="email" name="emailaddress" id="emailaddress" required>
+                    <br>
+                    <label for="arrival-date"><strong>Day of arrival:</strong></label>
+                    <input type="date" name="arrival-date" id="arrival-date" required>
+                    <br>
+                    <label for="return-home"><strong>Return home:</strong></label>
+                    <input type="date" name="return-home" id="return-home" required>
+                    <br>
+                    <label for="safari"><strong>Safari:</strong></label>
+                    <div id="safari-radiobuttons">
+                        <input type="radio" name="safari-yes" id="safari-yes" value="Yes" required>
+                        <p>Yes</p>
+                        <input type="radio" name="safari-no" id="safari-no" value="No" required>
+                        <p>No</p>
+                        <input type="radio" name="safari-only" id="safari-only" value="Only" required>
+                        <p>Safari Only</p>
+                    </div>
+                    <br>
+                    <button type="submit" value="submit">Reserve</button>
+                    <br>
+            </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
