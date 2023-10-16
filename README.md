@@ -20,6 +20,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
   * https://www.pexels.com/sv-se/ and https://pikwizard.com/ for images
   * favicon from: <https://fontawesome.com/icons/puzzle-piece?f=classic&s=solid&pc=%234e6858>
   * used https://favicon.io/favicon-converter/ to generate the favicon
+  * https://www.remove.bg/ to remove background from favicon
 
 * BUGS:
   - want to move all divs in the #club section to the right handside by using a class. added the same flex to all divs but only the last one goes to the right handside on mobile version. when i check on a regular website all divs in the club section are to the right handside. 
