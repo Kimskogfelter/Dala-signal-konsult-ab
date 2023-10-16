@@ -30,10 +30,16 @@ a {
 
 /* overrides the default browser styles */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
     border: none;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
 /* margin around the part below the hero image */
@@ -90,7 +96,7 @@ body {
     width: 40px;
     display: flex;
     align-self: center;
-    
+
 }
 
 /* hides checkbox next to header */
@@ -134,7 +140,7 @@ body {
     padding: 10px;
 }
 
-/* actice link color on nav menu */
+/* active link color on nav menu */
 
 #nav-menu a:active {
     background-color: #cab5b177;
@@ -153,9 +159,10 @@ nav {
     position: absolute;
     margin-top: 40px;
     background-color: #4e6458;
+    border-bottom: #45534b 1px solid;
     width: 100%;
     display: none;
-    
+
 }
 
 /* checkbox dropdown function */
@@ -431,23 +438,23 @@ img {
     width: 250px;
     height: 520px;
     margin-top: 0;
-    
+
 }
 
-#safari-radiobuttons {
+.safari-radiobuttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 200px;
 }
 
-#safari-radiobuttons input {
+.safari-radiobuttons input {
     width: 30px;
     margin: 16px;
     margin-right: 5px;
 }
 
-#safari-radiobuttons p {
+.safari-radiobuttons p {
     width: 50px;
     display: flex;
     text-align: center;
@@ -456,20 +463,22 @@ img {
 
 /* CONTACT-US.HTML */
 
-#contact-us-bg-img 
+#contact-us-body-bg-img {
 
-{
-        background: url(../images/elephant-walking-savanna.jpeg) no-repeat;
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        
-    }
+    background: url(../images/free-photo-of-sommar-giraff-safari-djurfotografi.jpeg) center center/cover no-repeat;
 
-#contact-us-bg-img div {
+}
+
+#contact-us-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+#contact-us-section div {
 
     background-color: #97afa7d0;
     width: 220px;
@@ -480,89 +489,82 @@ img {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-  
-    
-        
+
+
+
+
 }
 
-#contact-us-bg-img p {
+#contact-us-section p {
     color: white;
 
 }
 
 
-#contact-us-bg-img h2{
+#contact-us-section h2 {
     margin-top: 5px;
     margin-bottom: 40px;
     color: white;
 }
 
- 
-
- /* THANKYOU-PAGE.HTML */
 
 
- #thank-you-page {
-     background: url(../images/man-and-woman-doing-yoga.jpeg);
-     width: 100vw;
-     height: 100vh;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     align-items: center;
+/* THANKYOU-PAGE.HTML */
 
 
- }
-
- #thank-you-div-bg {
-
-     background-color: #97afa7d0;
-     width: 250px;
-     height: 300px;
-     margin-top: 0;
-     padding: 10px;
-     display: flex;
-     justify-content: center;
-     flex-direction: column;
-     text-align: center;
-
- }
-
-  #thank-you-page h2 {
-      margin-top: 5px;
-      margin-bottom: 40px;
-      color: white;
-      text-align: center;
-      display: flex;
-      justify-content: center;
-      
-  }
+#thank-you-page {
+    background: url(../images/man-and-woman-doing-yoga.jpeg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
 
+}
 
- #thank-you-div-bg p {
+#thank-you-div-bg {
+
+    background-color: #97afa7d0;
+    width: 250px;
+    height: 300px;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#thank-you-page h2 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#thank-you-div-bg p {
     color: white;
     line-height: 1;
- }
+}
 
 
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-
-}
+@media screen and (min-width: 576px) {}
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-}
+@media screen and (min-width: 768px) {}
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-}
+@media screen and (min-width: 992px) {}
 
 /* Media query: Screens bigger then 1200px */
-@media screen and (min-width: 1200px) {
-
-}
+@media screen and (min-width: 1200px) {}
