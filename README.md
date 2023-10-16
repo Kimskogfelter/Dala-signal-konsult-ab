@@ -10,6 +10,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 * CODE:
   * The code for the social media links in the footer are taken from Love Running project. URL: https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git
+  * the media querys comments in css are taken from Love Running project. URL: <https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git>
   
 
 
