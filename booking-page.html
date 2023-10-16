@@ -50,10 +50,10 @@
             <div id="bookingpage-bg">
         <form action="https://kimskogfelter.github.io/Safari-Retreat/thankyou-page.html" method="get">
          <label for="firstname"><strong>First Name:</strong></label>
-         <input type="text" name="firstname" id="firstname" required>
+         <input type="text" name="firstname" id="firstname" input pattern="[a-zA-Z]" oninvalid="setCustomValidity('Please enter alphabets only.')" required>
          <br>
          <label for="lastname"> <strong>Last Name:</strong></label>
-         <input type="text" name="lastname" id="lastname" required>
+         <input type="text" name="lastname" id="lastname" input pattern="[a-zA-Z]" oninvalid="setCustomValidity('Please enter alphabets only.')" required>
          <br>
          <label for="emailaddress"><strong>Email Address:</strong></label>
          <input type="email" name="emailaddress" id="emailaddress" required>
