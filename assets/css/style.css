@@ -541,3 +541,19 @@ img {
 
 
 /* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Media query: Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Media query: Screens bigger then 1200px */
+@media screen and (min-width: 1200px)
