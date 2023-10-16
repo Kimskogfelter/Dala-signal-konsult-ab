@@ -226,7 +226,7 @@ nav {
 #retreat {
 
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
     width: 100%;
 
@@ -234,13 +234,13 @@ nav {
 
 #retreat h3 {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
-.div-right {
+.div-center {
     display: flex;
-    justify-content: flex-end;
-    text-align: end;
+    justify-content: center;
+    text-align: center;
 }
 
 .retreat-image {
@@ -274,11 +274,27 @@ nav {
 /* Safari section */
 
 /* removed underline under <a> and changed color */
+
+#safari div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
 #safari a {
     color: #97afa7;
     padding: 1px;
     text-decoration: none;
 }
+
+#safari h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* safari times section */
 
@@ -296,7 +312,7 @@ nav {
 
 #safari-times div {
     border: white solid 2px;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.726);
     text-align: center;
 
