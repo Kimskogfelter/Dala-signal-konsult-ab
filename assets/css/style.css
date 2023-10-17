@@ -105,7 +105,6 @@ body {
 margin-left: auto;
   width: 310px;
   margin-bottom: 0%;
-  border-bottom: #45534b 3px solid;
   left: 0;
   right: 0;
 }
@@ -137,16 +136,19 @@ nav li {
   display: flex;
 }
 
+
 /* navmenu dropdown style */
 
 nav {
   position: absolute;
   margin-top: 40px;
   background-color: #4e6458;
-  border-bottom: #45534b 1px solid;
+border-bottom: #45534b 3px solid;
   width: 100%;
   display: none;
 }
+
+
 
 /* checkbox dropdown function */
 
@@ -472,9 +474,7 @@ img {
 /* THANKYOU-PAGE.HTML */
 
 #thank-you-page {
-  background: url(../images/smiling-older-man-looking-at-the-camera.jpg);
-  width: 100vw;
-  height: 100vh;
+  background-image: url(../images/smiling-older-man-looking-at-the-camera.jpg) center center/cover no-repeat;
   display: flex;
   justify-content: center;
   flex-direction: column;
