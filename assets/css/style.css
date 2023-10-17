@@ -100,8 +100,9 @@ body {
   background-color: #4e6458;
   display: flex;
   list-style-type: none;
-  padding-right: 30px;
+  padding-right: 10px;
   flex-direction: column;
+margin-left: auto;
   width: 310px;
   margin-bottom: 0%;
   border-bottom: #45534b 3px solid;
@@ -113,6 +114,8 @@ body {
   color: white;
   padding: 1px;
   text-decoration: none;
+
+  
 }
 
 /* hover effect on nav menu */
@@ -506,10 +509,19 @@ img {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+/* SAFARI-GALLERY.HTML PAGE */
+
+#safari-gallery {
+    column-count: 3;
+    line-height: 0;
+}
+
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
