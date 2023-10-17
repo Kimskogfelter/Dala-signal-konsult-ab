@@ -352,11 +352,11 @@ img {
 }
 
 #bookingpage h2 {
-  margin-top: 20px;
+  
   color: white;
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  
 }
 
 #bookingpage form {
@@ -364,7 +364,7 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  padding-top: 40px;
+ 
 }
 
 #bookingpage input {
@@ -390,9 +390,9 @@ img {
 /* transparent background */
 #bookingpage-bg {
   background-color: #97afa7d0;
-  width: 250px;
-  height: 400px;
-  margin-top: 0;
+  width: 270px;
+  height: 420px;
+  margin-top: 150px;
 }
 
 #safari-radiobuttons {
