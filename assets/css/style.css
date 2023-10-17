@@ -1,18 +1,14 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@600&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@600&display=swap");
 
 /* fonts body */
-
 
 h2,
 h1,
 h3 {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     color: #4e6458;
     text-transform: uppercase;
-
 }
 
 h3 {
@@ -22,11 +18,8 @@ h3 {
 p,
 body,
 a {
-
-    font-family: 'Rubik', sans-serif;
-
+    font-family: "Rubik", sans-serif;
 }
-
 
 /* overrides the default browser styles */
 
@@ -40,6 +33,7 @@ body {
     border: none;
     max-width: 100vw;
     overflow-x: hidden;
+
 }
 
 /* margin around the part below the hero image */
@@ -47,8 +41,6 @@ body {
 #body-margin {
     margin: 8px;
 }
-
-
 
 /* INDEX.HTML PAGE */
 /* header */
@@ -63,15 +55,13 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-
 }
 
 #header-text a {
     color: white;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
-
 
 #header-text {
     color: white;
@@ -87,21 +77,17 @@ body {
 #header i {
     font-size: 200%;
     padding-right: 50px;
-
 }
-
 
 /* centers the navmenu icon */
 #label-checkbox {
     width: 40px;
     display: flex;
     align-self: center;
-
 }
 
 /* hides checkbox next to header */
 #checkbox-navmenu {
-
     display: none;
 }
 
@@ -112,7 +98,6 @@ body {
 
 /* navbar menu */
 #nav-menu {
-
     background-color: #4e6458;
     display: flex;
     list-style-type: none;
@@ -129,8 +114,6 @@ body {
     color: white;
     padding: 1px;
     text-decoration: none;
-
-
 }
 
 /* hover effect on nav menu */
@@ -150,7 +133,6 @@ nav li {
     padding-bottom: 10px;
     justify-content: flex-end;
     display: flex;
-
 }
 
 /* navmenu dropdown style */
@@ -162,19 +144,15 @@ nav {
     border-bottom: #45534b 1px solid;
     width: 100%;
     display: none;
-
 }
 
 /* checkbox dropdown function */
 
 #checkbox-navmenu:checked~nav {
     display: block;
-
 }
 
-
 /* main content */
-
 
 /* hero section */
 
@@ -185,7 +163,6 @@ nav {
     margin-top: 42px;
     display: flex;
     align-items: flex-end;
-
 }
 
 #hero-div-bg {
@@ -206,9 +183,6 @@ nav {
     line-height: 1.5;
 }
 
-
-
-
 /* Info section */
 
 #info div {
@@ -221,25 +195,19 @@ nav {
     display: flex;
     text-align: center;
     justify-content: center;
-
 }
 
 #info p {
     margin: 8px;
 }
 
-
-
-
 /* Retreat section */
 
 #retreat {
-
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
-
 }
 
 #retreat h3 {
@@ -256,17 +224,15 @@ nav {
 .retreat-image {
     display: flex;
     justify-content: center;
-    margin: 40px
+    margin: 40px;
 }
 
 .retreat-image img {
-
     display: flex;
     justify-content: center;
     width: 300px;
     height: 250px;
     border-radius: 50px;
-
 }
 
 #retreat i {
@@ -279,7 +245,6 @@ nav {
     padding: 1px;
     text-decoration: none;
 }
-
 
 /* Safari section */
 
@@ -304,8 +269,6 @@ nav {
     justify-content: center;
 }
 
-
-
 /* safari times section */
 
 #safari-times {
@@ -313,7 +276,6 @@ nav {
     width: 100%;
     display: flex;
     flex-direction: column;
-
 }
 
 #safari-times h3 {
@@ -325,15 +287,11 @@ nav {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.726);
     text-align: center;
-
 }
 
 #safari-times p {
     color: white;
 }
-
-
-
 
 /* Footer */
 
@@ -349,7 +307,6 @@ hr {
     border-top: #97afa7 10px;
     height: 50px;
     margin-right: 50px;
-
 }
 
 #social-networks i {
@@ -360,7 +317,6 @@ hr {
 
 #footer {
     height: 50px;
-
 }
 
 /* SAFARI-GALLERY.HTML PAGE */
@@ -373,7 +329,504 @@ hr {
 
 img {
     width: 100vw;
+}
 
+#firstimage {
+    margin-top: 45px;
+}
+
+/* BOOKING-PAGE.HTML PAGE */
+
+#bookingpage {
+    background: url(../images/cheetah-close-up.jpeg) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#bookingpage h2 {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#bookingpage form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+#bookingpage input {
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    border-color: white;
+}
+
+#bookingpage button {
+    font-size: 110%;
+    background-color: #4e6458;
+    border-radius: 20px;
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+}
+
+#bookingpage label {
+    color: white;
+}
+
+/* transparent background */
+#bookingpage-bg {
+    background-color: #97afa7d0;
+    width: 250px;
+    height: 400px;
+    margin-top: 0;
+}
+
+#safari-radiobuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+}
+
+#safari-radiobuttons input {
+    width: 30px;
+    margin: 16px;
+    margin-right: 5px;
+}
+
+#safari-radiobuttons p {
+    width: 50px;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+
+/* CONTACT-US.HTML */
+
+#contact-us-body-bg-img {
+    background: url(../images/free-photo-of-sommar-giraff-safari-djurfotografi.jpeg) center center/cover no-repeat;
+}
+
+#contact-us-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#contact-us-section div {
+    background-color: #97afa7d0;
+    width: 220px;
+    height: 300px;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#contact-us-section p {
+    color: white;
+}
+
+#contact-us-section h2 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* THANKYOU-PAGE.HTML */
+
+#thank-you-page {
+    background: url(../images/man-and-woman-doing-yoga.jpeg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#thank-you-div-bg {
+    background-color: #97afa7d0;
+    width: 250px;
+    height: 300px;
+    margin-top: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#thank-you-page h2 {
+    margin-top: 5px;
+    margin-bottom: 40px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#thank-you-div-bg p {
+    color: white;
+    line-height: 1;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {}
+
+/* Media query: Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Media query: Screens bigger then 1200px */
+@media screen and (min-width: 1200px) {}
+
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@600&display=swap");
+
+/* fonts body */
+
+h2,
+h1,
+h3 {
+    font-family: "Raleway", sans-serif;
+    color: #4e6458;
+    text-transform: uppercase;
+}
+
+h3 {
+    height: 15px;
+}
+
+p,
+body,
+a {
+    font-family: "Rubik", sans-serif;
+}
+
+/* overrides the default browser styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+/* margin around the part below the hero image */
+
+#body-margin {
+    margin: 8px;
+}
+
+/* INDEX.HTML PAGE */
+/* header */
+#header {
+    background: #4e6458 top center/cover;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #45534b 3px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+#header-text a {
+    color: white;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+#header-text {
+    color: white;
+    background-color: #4e6458;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    width: 280px;
+}
+
+/* bars icon next to header */
+#header i {
+    font-size: 200%;
+    padding-right: 50px;
+}
+
+/* centers the navmenu icon */
+#label-checkbox {
+    width: 40px;
+    display: flex;
+    align-self: center;
+}
+
+/* hides checkbox next to header */
+#checkbox-navmenu {
+    display: none;
+}
+
+/* border under active nav-menu */
+.active {
+    border-bottom: solid 2px white;
+}
+
+/* navbar menu */
+#nav-menu {
+    background-color: #4e6458;
+    display: flex;
+    list-style-type: none;
+    padding-right: 30px;
+    flex-direction: column;
+    width: 310px;
+    margin-bottom: 0%;
+    border-bottom: #45534b 3px solid;
+    left: 0;
+    right: 0;
+}
+
+#nav-menu a {
+    color: white;
+    padding: 1px;
+    text-decoration: none;
+}
+
+/* hover effect on nav menu */
+#nav-menu a:hover {
+    background-color: #cab5b177;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* active link color on nav menu */
+
+#nav-menu a:active {
+    background-color: #cab5b177;
+}
+
+nav li {
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+/* navmenu dropdown style */
+
+nav {
+    position: absolute;
+    margin-top: 40px;
+    background-color: #4e6458;
+    border-bottom: #45534b 1px solid;
+    width: 100%;
+    display: none;
+}
+
+/* checkbox dropdown function */
+
+#checkbox-navmenu:checked~nav {
+    display: block;
+}
+
+/* main content */
+
+/* hero section */
+
+#hero {
+    background: url(../images/two-cheetah-sitting-next-to-eachother-in-the-grass.jpeg) no-repeat center/cover;
+    width: 100vw;
+    height: 350px;
+    margin-top: 42px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#hero-div-bg {
+    background-color: #4e6458b6;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+#hero-div-bg p {
+    display: flex;
+    line-height: 1.5;
+}
+
+/* Info section */
+
+#info div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#info h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#info p {
+    margin: 8px;
+}
+
+/* Retreat section */
+
+#retreat {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#retreat h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.retreat-image {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.retreat-image img {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+#retreat i {
+    padding-left: 5px;
+}
+
+/* removed underline under <a> and changed color */
+#retreat a {
+    color: #97afa7;
+    padding: 1px;
+    text-decoration: none;
+}
+
+/* Safari section */
+
+/* removed underline under <a> and changed color */
+
+#safari div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#safari a {
+    color: #97afa7;
+    padding: 1px;
+    text-decoration: none;
+}
+
+#safari h3 {
+    display: flex;
+    justify-content: center;
+}
+
+/* safari times section */
+
+#safari-times {
+    background: url(../images/lion.jpeg) center/ cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#safari-times h3 {
+    color: #f0c66dd0;
+}
+
+#safari-times div {
+    border: white solid 2px;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    text-align: center;
+}
+
+#safari-times p {
+    color: white;
+}
+
+/* Footer */
+
+hr {
+    color: #97afa7;
+}
+
+#social-networks {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    border-top: #97afa7 10px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+#social-networks i {
+    font-size: 200%;
+    padding: 5%;
+    color: #4e6458;
+}
+
+#footer {
+    height: 50px;
+}
+
+/* SAFARI-GALLERY.HTML PAGE */
+
+#meet-and-greet-gallery-heading {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100vw;
 }
 
 #firstimage {
@@ -390,8 +843,6 @@ img {
     justify-content: center;
 }
 
-
-
 #bookingpage h2 {
     margin-top: 20px;
     color: white;
@@ -406,10 +857,7 @@ img {
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
-
 }
-
-
 
 #bookingpage input {
     width: 200px;
@@ -425,7 +873,6 @@ img {
     border-color: white;
     color: white;
     padding: 10px 15px;
-
 }
 
 #bookingpage label {
@@ -438,23 +885,22 @@ img {
     width: 250px;
     height: 520px;
     margin-top: 0;
-
 }
 
-.safari-radiobuttons {
+#safari-radiobuttons {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 200px;
 }
 
-.safari-radiobuttons input {
+#safari-radiobuttons input {
     width: 30px;
     margin: 16px;
     margin-right: 5px;
 }
 
-.safari-radiobuttons p {
+#safari-radiobuttons p {
     width: 50px;
     display: flex;
     text-align: center;
@@ -464,9 +910,7 @@ img {
 /* CONTACT-US.HTML */
 
 #contact-us-body-bg-img {
-
-    background: url(../images/free-photo-of-sommar-giraff-safari-djurfotografi.jpeg) center center/cover no-repeat;
-
+    background: url(../images/man-feeding-giraffe-in-village.jpeg) center center/cover no-repeat;
 }
 
 #contact-us-section {
@@ -475,11 +919,9 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
-
 }
 
 #contact-us-section div {
-
     background-color: #97afa7d0;
     width: 220px;
     height: 300px;
@@ -489,17 +931,11 @@ img {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
-
-
-
 }
 
 #contact-us-section p {
     color: white;
-
 }
-
 
 #contact-us-section h2 {
     margin-top: 5px;
@@ -507,10 +943,7 @@ img {
     color: white;
 }
 
-
-
 /* THANKYOU-PAGE.HTML */
-
 
 #thank-you-page {
     background: url(../images/man-and-woman-doing-yoga.jpeg);
@@ -520,12 +953,9 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 #thank-you-div-bg {
-
     background-color: #97afa7d0;
     width: 250px;
     height: 300px;
@@ -535,7 +965,6 @@ img {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-
 }
 
 #thank-you-page h2 {
@@ -545,17 +974,12 @@ img {
     text-align: center;
     display: flex;
     justify-content: center;
-
 }
-
-
 
 #thank-you-div-bg p {
     color: white;
     line-height: 1;
 }
-
-
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {}

@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Safari Retreat</title>
     <!-- link to favicon.io -->
-<link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon.ico/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.ico/favicon-16x16.png">
-<link rel="manifest" href="../assets/favicon.ico/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon.ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="../assets/favicon.ico/site.webmanifest">
 
 
     <!-- link to css file -->
@@ -24,12 +24,11 @@
 
     <!-- header -->
     <header id="header">
-    <h1 id="header-text"><a href="index.html">safari retreat</a></h1>
+        <h1 id="header-text"><a href="index.html">safari retreat</a></h1>
         <!--makes the navmenu toggle-->
         <input type="checkbox" id="checkbox-navmenu" name="checkbox-navmenu">
         <!--bars icon for the checkbox-->
-        <label for="checkbox-navmenu" id="label-checkbox"><i class="fa-solid fa-bars"
-                style="color:white;"></i></label>
+        <label for="checkbox-navmenu" id="label-checkbox"><i class="fa-solid fa-bars" style="color:white;"></i></label>
         <nav class="hidden-navmenu">
             <ul id="nav-menu">
                 <li><a href="index.html">Home</a></li>
@@ -42,41 +41,36 @@
     <!-- main content -->
 
     <!-- booking section -->
-    
+
     <section id="bookingpage">
         <div>
             <h2>booking page</h2>
             <div id="bookingpage-bg">
-        <form action="https://kimskogfelter.github.io/Safari-Retreat/thankyou-page.html" method="get">
-         <label for="firstname"><strong>First Name:</strong></label>
-         <input type="text" name="firstname" id="firstname" pattern="[A-Za-z]" oninvalid="setCustomValidity('Please enter alphabets only.')" required>
-         <br>
-         <label for="lastname"> <strong>Last Name:</strong></label>
-         <input type="text" name="lastname" id="lastname" pattern="[A-Za-z]" oninvalid="setCustomValidity('Please enter alphabets only.')" required>
-         <br>
-         <label for="emailaddress"><strong>Email Address:</strong></label>
-         <input type="email" name="emailaddress" id="emailaddress" required>
-         <br>
-        <label for="arrival-date"><strong>Day of arrival:</strong></label>
-         <input type="date" name="arrival-date" id="arrival-date" required>
-         <br>
-        <label for="return-home"><strong>Return home:</strong></label>
-        <input type="date" name="return-home" id="return-home" required>
-        <br>
-        <label for="safari"><strong>Safari:</strong></label>
-        <div id="safari-radiobuttons">
-        <input type="radio" name="safari-radiobuttons" id="safari-yes" value="Yes" required><p>Yes</p>
-        <input type="radio" name="safari-radiobuttons" id="safari-no" value="No" required><p>No</p>
-        <input type="radio" name="safari-radiobuttons" id="safari-only" value="Only" required>
-        <p>Safari Only</p>
+                <form action="https://kimskogfelter.github.io/Safari-Retreat/thankyou-page.html" method="get">
+                    <label for="firstname"><strong>First Name:</strong></label>
+                    <input type="text" name="firstname" id="firstname" pattern="[A-Za-z]"
+                        oninvalid="setCustomValidity('Please enter alphabets only.')" required>
+                    <br>
+                    <label for="lastname"> <strong>Last Name:</strong></label>
+                    <input type="text" name="lastname" id="lastname" pattern="[A-Za-z]"
+                        oninvalid="setCustomValidity('Please enter alphabets only.')" required>
+                    <br>
+                    <label for="emailaddress"><strong>Email Address:</strong></label>
+                    <input type="email" name="emailaddress" id="emailaddress" required>
+                    <br>
+                    <label for="arrival-date"><strong>Day of arrival:</strong></label>
+                    <input type="date" name="arrival-date" id="arrival-date" required>
+                    <br>
+                    <label for="return-home"><strong>Return home:</strong></label>
+                    <input type="date" name="return-home" id="return-home" required>
+                    <br>
+                    <button type="submit" value="submit">Reserve</button>
+                    <br>
+            </div>
+            </form>
         </div>
-        <br>
-        <button type="submit" value="submit">Reserve</button>
-        <br>
-        </div>
-        </form>
-        </div> 
     </section>
 
-    </body>
-    </html>
+</body>
+
+</html>
