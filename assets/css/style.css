@@ -395,6 +395,10 @@ img {
   margin-top: 150px;
 }
 
+#bookingpage-bg h3 {
+    color: white;
+}
+
 #safari-radiobuttons {
   display: flex;
   flex-direction: column;
