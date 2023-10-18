@@ -117,9 +117,7 @@ body {
 
 /* hover effect on nav menu */
 #nav-menu a:hover {
-  background-color: #cab5b177;
-  border-radius: 20px;
-  padding: 10px;
+border-bottom: solid 2px white;
 }
 
 /* active link color on nav menu */
@@ -551,7 +549,6 @@ img {
         display: flex;
         justify-content: center;
         text-align: center;
-        
         width: fit-content;
     }
 
