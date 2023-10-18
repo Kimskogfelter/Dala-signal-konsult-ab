@@ -657,6 +657,18 @@ img {
         text-align: center;
     }
 
+        /* retreat section */
+    
+        #retreat-images {
+            column-count: 3;
+            column-gap: 0;
+    
+        }
+    
+        #retreat-image {
+            margin: 0;
+        }
+
     /* SAFARI-GALLERY.HTML PAGE */
         #safari-gallery {
             column-count: 4;
