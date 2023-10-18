@@ -102,7 +102,7 @@ body {
   list-style-type: none;
   padding-right: 10px;
   flex-direction: column;
-margin-left: auto;
+  margin-left: auto;
   width: 310px;
   margin-bottom: 0%;
   left: 0;
@@ -113,8 +113,6 @@ margin-left: auto;
   color: white;
   padding: 1px;
   text-decoration: none;
-
-  
 }
 
 /* hover effect on nav menu */
@@ -136,19 +134,16 @@ nav li {
   display: flex;
 }
 
-
 /* navmenu dropdown style */
 
 nav {
   position: absolute;
   margin-top: 40px;
   background-color: #4e6458;
-border-bottom: #45534b 3px solid;
+  border-bottom: #45534b 3px solid;
   width: 100%;
   display: none;
 }
-
-
 
 /* checkbox dropdown function */
 
@@ -333,7 +328,7 @@ hr {
 }
 
 img {
-  width: 100vw;
+  width: 100%;
 }
 
 #firstimage {
@@ -352,11 +347,9 @@ img {
 }
 
 #bookingpage h2 {
-  
   color: white;
   display: flex;
   justify-content: center;
-  
 }
 
 #bookingpage form {
@@ -364,7 +357,6 @@ img {
   justify-content: center;
   flex-direction: column;
   align-items: center;
- 
 }
 
 #bookingpage input {
@@ -396,7 +388,7 @@ img {
 }
 
 #bookingpage-bg h3 {
-    color: white;
+  color: white;
 }
 
 #safari-radiobuttons {
@@ -468,17 +460,18 @@ img {
 }
 
 #contact-us-section textarea {
-    border-radius: 20px;
-    border-color: white;
-    width: 250px;
-    height: 80px;
-    margin-bottom: 10px;
+  border-radius: 20px;
+  border-color: white;
+  width: 250px;
+  height: 80px;
+  margin-bottom: 10px;
 }
 
 /* THANKYOU-PAGE.HTML */
 
 #thank-you-page {
-  background-image: url(../images/smiling-older-man-looking-at-the-camera.jpg) center center/cover no-repeat;
+  background-image: url(../images/smiling-older-man-looking-at-the-camera.jpg)
+    center center/cover no-repeat;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -513,25 +506,36 @@ img {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
+   
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-/* SAFARI-GALLERY.HTML PAGE */
-
+  /* SAFARI-GALLERY.HTML PAGE */
 #safari-gallery {
-    column-count: 3;
-    line-height: 0;
-}
+        column-count: 2;
+        column-gap: 5px;
+    }
 
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    /* SAFARI-GALLERY.HTML PAGE */
+        #safari-gallery {
+            column-count: 3;
+            column-gap: 5px;
+        }
 }
 
 /* Media query: Screens bigger then 1200px */
 @media screen and (min-width: 1200px) {
+
+    /* SAFARI-GALLERY.HTML PAGE */
+        #safari-gallery {
+            column-count: 4;
+            column-gap: 5px;
+        }
 }
