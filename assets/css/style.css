@@ -565,7 +565,7 @@ img {
     /* hero section */
 
     #hero {
-        margin-top: 50px;
+        margin-top: 47px;
         height: 400px;
     }
 
@@ -601,6 +601,7 @@ img {
     #safari-gallery {
         column-count: 2;
         column-gap: 5px;
+        margin-top: 50px;
     }
 
 }
