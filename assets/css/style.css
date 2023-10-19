@@ -598,22 +598,72 @@ img {
 
     /* info section */
 
-    #info p {
-        font-size: larger;
+
+     #info h2 {
+        margin-bottom: 20px;
+     }
+    
+
+    #info div {
+        width: 600px;
+        margin-left: 90px;
     }
 
+    #info p {
+        font-size: larger;
+        display: flex;
+        text-align: center;
+    }
+
+
+
     /* retreat section */
+
+    #retreat h3 {
+        font-size: x-large;
+    }
 
     #retreat p {
         font-size: larger;
     }
 
+    .div-center {
+        width: 600px;
+        margin-left: 90px;
+    }
+
+    #retreat-images {
+            column-count: 2;
+            column-gap: 0;
+    
+        }
+    
+    #retreat-image {
+            margin: 0;
+        }
+
     
 
     /* safari section */
 
+    #safari h3 {
+        font-size: x-large;
+    }
+
+    #safari div {
+
+        width: 600px;
+            margin-left: 90px;
+    }
+
     #safari p {
         font-size: larger;
+    }
+
+    /* safari video */
+
+    #safari-video iframe {
+        height: 500px;
     }
 
   /* SAFARI-GALLERY.HTML PAGE */
