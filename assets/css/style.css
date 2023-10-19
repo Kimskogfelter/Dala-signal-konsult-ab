@@ -722,7 +722,7 @@ img {
  /* safari-times section */
 
  #safari-times {
-    display: inline-flex;
+    display: flex;
  }
        
            
