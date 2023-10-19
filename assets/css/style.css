@@ -604,10 +604,11 @@ img {
      }
     
 
-    #info div {
-        width: 600px;
-        margin-left: 90px;
-    }
+         /* info section */
+         #info div {
+             margin: auto;
+             width: 70%;
+         }
 
     #info p {
         font-size: larger;
@@ -626,8 +627,10 @@ img {
     }
 
     .div-center {
-        width: 600px;
-        margin-left: 90px;
+        
+        margin: auto;
+        width: 70%;
+            
     }
 
     #retreat-images {
@@ -652,8 +655,10 @@ img {
     
     #safari div {
 
-        width: 600px;
-            margin-left: 90px;
+        
+        margin: auto;
+        width: 70%;
+        
     }
 
     #safari p {
