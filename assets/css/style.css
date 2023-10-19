@@ -701,13 +701,14 @@ img {
 
     /* retreat section */
 
-    #retreat-section {
+    #retreat {
             display: flex;
         }
 
     #retreat-images {
             column-count: 2;
             column-gap: 0;
+            order:0
     
         }
     
@@ -715,13 +716,13 @@ img {
             margin: 0;
         }
 
+        .div-center {
+            order: 1
+        }
+
         /* safari section */
 
-     
 
-        #safari {
-            display: inline-block;
-        }
 
         
 
