@@ -679,6 +679,10 @@ img {
         margin-top: 50px;
     }
 
+    #firstimage {
+        margin-top:0;
+    }
+
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
@@ -718,7 +722,7 @@ img {
  /* safari-times section */
 
  #safari-times {
-    column-count: 5;
+    display: inline-flex;
  }
        
            
