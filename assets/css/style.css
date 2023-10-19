@@ -631,6 +631,7 @@ img {
     }
 
     #retreat-images {
+            
             column-count: 2;
             column-gap: 0;
     
@@ -638,6 +639,10 @@ img {
     
     #retreat-image {
             margin: 0;
+        }
+
+        #retreat-image-4 {
+            margin-top: 40px;
         }
 
     
@@ -676,7 +681,18 @@ img {
 
     /* INDEX.HTML PAGE */
 
+    /* info section */
+    #info div {
+        margin: auto;
+        width: 50%;
+    }
+    
+
     /* retreat section */
+
+    #retreat-section {
+            display: flex;
+        }
 
     #retreat-images {
             column-count: 2;
@@ -688,7 +704,27 @@ img {
             margin: 0;
         }
 
+        /* safari section */
+
+        #safari-text-and-video-section {
+            display: flex;
+            flex-direction: column;
+        }
+ /* safari-times section */
+
+ #safari-times {
+    column-count: 5;
+ }
+       
+           
+
     /* SAFARI-GALLERY.HTML PAGE */
+
+    #safari-section {
+        display: flex;
+        flex-direction: column;
+    }
+
         #safari-gallery {
             column-count: 3;
             column-gap: 5px;
