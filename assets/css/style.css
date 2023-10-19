@@ -321,6 +321,14 @@ hr {
   color: #4e6458;
 }
 
+#follow-us {
+    color: #4e6458;
+    display: flex;
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+}
+
 #footer {
   height: 50px;
 }
@@ -477,9 +485,11 @@ img {
 /* THANKYOU-PAGE.HTML */
 
 #thank-you-page {
-  background-image: url(../images/smiling-older-man-looking-at-the-camera.jpg)
+  background-image: url(../images/man-and-woman-smiling-and-shaving-mans-face.jpeg)
     center center/cover no-repeat;
   display: flex;
+  width: 100%;
+  height: 100%;
   justify-content: center;
   flex-direction: column;
   align-items: center;
