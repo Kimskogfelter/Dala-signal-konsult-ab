@@ -23,6 +23,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
   - favicon from: <https://fontawesome.com/icons/puzzle-piece?f=classic&s=solid&pc=%234e6858>
   - used https://favicon.io/favicon-converter/ to generate the favicon
   - https://www.remove.bg/ to remove background from favicon
+  - video in safari section in the index.html page from <https://www.youtube.com/watch?v=Krh9ccPOx-M>
 
 - BUGS:
 
