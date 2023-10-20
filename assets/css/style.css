@@ -230,7 +230,8 @@ nav {
 .retreat-image {
   display: flex;
   justify-content: center;
-  margin: 30px;
+  margin: 20px;
+
 }
 
 .retreat-image img {
@@ -646,7 +647,7 @@ img {
         }
 
         #retreat-image-4 {
-            margin-top: 40px;
+            margin-top: ;
         }
 
     
