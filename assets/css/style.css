@@ -646,6 +646,14 @@ display: flex;
 @media screen and (min-width: 992px) {
 
     /* INDEX.HTML PAGE */
+
+    /* info section */
+ #info div {
+    margin: auto;
+    width: 50%;
+ }
+
+
     
 
     /* retreat section */
