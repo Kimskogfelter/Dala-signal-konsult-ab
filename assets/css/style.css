@@ -327,6 +327,8 @@ justify-content: center;
 
 #safari-video {
     width: 100%;
+    border-radius: 40px;
+    border: 1px solid white;
 }
 
 /* safari times section */
@@ -736,6 +738,17 @@ display: flex;
             order: 0;
             
             
+        }
+
+        /* safari section */
+
+        #safari-text-and-video {
+            display: flex;
+        }
+
+        #safari-video {
+            width: 50vw;
+            height: 50vh;
         }
    
            
