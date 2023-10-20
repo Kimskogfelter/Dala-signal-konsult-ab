@@ -276,6 +276,12 @@ display: flex;
 justify-content: center;
 }
 
+/* safari video */
+
+#safari-video {
+    width: 100%;
+}
+
 /* safari times section */
 
 #safari-times {
@@ -659,7 +665,7 @@ display: flex;
     /* retreat section */
 
     #retreat-images {
-            column-count: 2;
+            column-count: 3;
             column-gap: 0;
             order:1
     
@@ -676,13 +682,17 @@ display: flex;
         }
    
            
-    /* SAFARI-GALLERY.HTML PAGE */
+           /* SAFARI-GALLERY.HTML PAGE */
+           #safari-gallery {
+               column-count: 4;
+               column-gap: 5px;
+           }
 
 
-        #safari-gallery {
-            column-count: 3;
-            column-gap: 5px;
-        }
+
+                  
+        
+               
 
 }
 
@@ -707,25 +717,8 @@ display: flex;
 
     #hero-div-bg p {
         font-size: 30px;
-        display: flex;
-        text-align: center;
+        
     }
 
-        /* retreat section */
-    
-        #retreat-images {
-            column-count: 3;
-            column-gap: 0;
-    
-        }
-    
-        #retreat-image {
-            margin: 0;
-        }
-
-    /* SAFARI-GALLERY.HTML PAGE */
-        #safari-gallery {
-            column-count: 4;
-            column-gap: 5px;
-        }
+      
 }
