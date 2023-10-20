@@ -606,11 +606,18 @@ display: flex;
     }
 
     #hero-div-bg {
-        width: 40vw;
+        width: 50vw;
+        height: 15vh;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        display: flex;
+       
+        align-items: center;
+        justify-content: center;
     }
 
     #hero-div-bg p {
-        font-size: large;
+        font-size: x-large;
     }
 
     /* info section */
