@@ -14,6 +14,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
   - the media querys comments in css are taken from Love Running project. URL: <https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git>
   - used information from the site: https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox to make the toggle navigation menu stick to the right side
   - used https://blog.hubspot.com/website/center-div-css#center-div-css to center the informations text div
+  - code for the hero slide was taken from <https://www.youtube.com/watch?v=Ef8LxpRPGRA>
 
 - TECHNOLOGIES
 

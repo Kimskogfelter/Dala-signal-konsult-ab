@@ -160,6 +160,8 @@ nav {
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .slide {
@@ -203,17 +205,6 @@ nav {
 
 }  
 
-/* old hero background section */
-#hero {
-  background: url(../images/hero-image-1.jpeg)
-    no-repeat center/cover;
-  width: 100vw;
-  height: 350px;
-  margin-top: 42px;
-  display: flex;
-  align-items: flex-end;
-}
-
 /* hero div with text */
 
 #hero-div-bg {
@@ -227,6 +218,8 @@ nav {
   padding: 10px;
   letter-spacing: 1px;
   word-spacing: 1px;
+  position: absolute;
+  
 }
 
 #hero-div-bg p {
