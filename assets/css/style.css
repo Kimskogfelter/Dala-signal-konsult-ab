@@ -153,8 +153,59 @@ nav {
 
 /* hero section */
 
+/* hero slide */
+.hero-slides {
+    height: 70vh;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+}
+
+.slide {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    inset: 0;
+    animation: slide-show 12s infinite;
+}
+
+.slide-2 {
+    animation-delay: 4s;
+}
+
+.slide-3 {
+    animation-delay: 8s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+@keyframes slide-show{ 
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    20%,
+    30% {
+        opacity: 1;
+        scale: 1.03;
+    }
+    50% {
+        opacity: 0;
+    }
+
+}  
+
+/* old hero background section */
 #hero {
-  background: url(../images/two-cheetah-sitting-next-to-eachother-in-the-grass.jpeg)
+  background: url(../images/hero-image-1.jpeg)
     no-repeat center/cover;
   width: 100vw;
   height: 350px;
@@ -162,6 +213,8 @@ nav {
   display: flex;
   align-items: flex-end;
 }
+
+/* hero div with text */
 
 #hero-div-bg {
   background-color: #4e6458b6;
