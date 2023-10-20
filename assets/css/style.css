@@ -221,29 +221,25 @@ nav {
 }
 
 #retreat h3 {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .div-center {
-  display: flex;
-  justify-content: center;
-  text-align: center;
+display: flex;
+justify-content: center;
+text-align: center;
 }
 
 .retreat-image {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
+margin: 20px;
 
 }
 
 .retreat-image img {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  border-radius: 40px;
+width: 100%;
+height: 100%;
+border-radius: 40px;
 }
 
 #retreat i {
@@ -262,11 +258,11 @@ nav {
 /* removed underline under <a> and changed color */
 
 #safari div {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
 }
 
 #safari a {
@@ -276,8 +272,8 @@ nav {
 }
 
 #safari h3 {
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 
 /* safari times section */
@@ -295,9 +291,8 @@ nav {
 
 #safari-times div {
   border: white solid 2px;
-  justify-content: center;
   background-color: rgba(0, 0, 0, 0.726);
-  text-align: center;
+    text-align: center;
 }
 
 #safari-times p {
@@ -340,12 +335,6 @@ hr {
 
 /* SAFARI-GALLERY.HTML PAGE */
 
-#meet-and-greet-gallery-heading {
-  margin-top: 75px;
-  display: flex;
-  justify-content: center;
-}
-
 img {
   width: 100%;
 }
@@ -361,21 +350,20 @@ img {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-  display: flex;
-  justify-content: center;
+display: flex;
+    justify-content: center;
 }
 
 #bookingpage h2 {
   color: white;
-  display: flex;
-  justify-content: center;
+  
 }
 
 #bookingpage form {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 #bookingpage input {
@@ -412,26 +400,6 @@ img {
 
 }
 
-#safari-radiobuttons {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 200px;
-}
-
-#safari-radiobuttons input {
-  width: 30px;
-  margin: 16px;
-  margin-right: 5px;
-}
-
-#safari-radiobuttons p {
-  width: 50px;
-  display: flex;
-  text-align: center;
-  color: white;
-}
-
 /* CONTACT-US.HTML */
 
 #contact-us-body-bg-img {
@@ -442,11 +410,10 @@ img {
 }
 
 #contact-us-section {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 #contact-us-section div {
@@ -455,10 +422,9 @@ img {
   height: 510px;
   margin-top: 100px;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #contact-us-section p {
@@ -491,14 +457,10 @@ img {
 /* THANKYOU-PAGE.HTML */
 
 #thank-you-page {
-  background-image: url(../images/man-and-woman-smiling-and-shaving-mans-face.jpeg)
-    center center/cover no-repeat;
-  display: flex;
+  background-color: #45534b;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+ 
 }
 
 #thank-you-div-bg {
@@ -507,10 +469,7 @@ img {
   height: 300px;
   margin-top: 0;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+ 
 }
 
 #thank-you-page h2 {
@@ -609,9 +568,7 @@ img {
         margin-bottom: 20px;
      }
     
-
-         /* info section */
-         #info div {
+    #info div {
              margin: auto;
              width: 70%;
          }
@@ -646,10 +603,7 @@ img {
     
         }
     
-    #retreat-image {
-            margin: 0;
-        }
-
+   
     
 
     /* safari section */
@@ -692,26 +646,9 @@ img {
 @media screen and (min-width: 992px) {
 
     /* INDEX.HTML PAGE */
-
-    /* hero section */
-
-    #hero-div-bg {
-       display: flex;
-       text-align: center;
-    }
-
-    /* info section */
-    #info div {
-        margin: auto;
-        width: 50%;
-    }
     
 
     /* retreat section */
-
-    #retreat {
-            display: flex;
-        }
 
     #retreat-images {
             column-count: 2;
@@ -726,37 +663,13 @@ img {
 
         .div-center {
             order: 0;
-            display: flex;
-            flex-direction: row;
+            
             
         }
-
-        retreat-image-3 {
-            margin-top: 10px;
-        }
-
-        /* safari section */
-
-
-
-        
-
-            
- /* safari-times section */
-
- #safari-times {
-    
-    display: flex;
-    column-count: 5;
- }    
+   
            
-
     /* SAFARI-GALLERY.HTML PAGE */
 
-    #safari-section {
-        display: flex;
-        flex-direction: column;
-    }
 
         #safari-gallery {
             column-count: 3;
