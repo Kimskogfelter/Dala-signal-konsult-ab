@@ -796,8 +796,8 @@ justify-content: center;
         }
 
                  #retreat-images {
-                     order: 1
-                 }
+                     order: 1;
+                     column-count: 2; }
 
 
        
@@ -843,13 +843,13 @@ justify-content: center;
                column-gap: 5px;
            }
 
-
+        }
 
                   
         
                
 
-}
+
 
 /* Media query: Screens bigger then 1200px */
 @media screen and (min-width: 1200px) {
