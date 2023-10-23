@@ -531,7 +531,6 @@ justify-content: center;
   margin-top: 150px;
   padding: 10px;
   display: flex;
-  justify-content: center;
   text-align: center;
     flex-direction: column;
 }
@@ -540,8 +539,6 @@ justify-content: center;
  
   margin-bottom: 40px;
   color: white;
-  display: flex;
-  justify-content: center;
 }
 
 #thank-you-booking-page p {
