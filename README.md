@@ -1,6 +1,6 @@
-Welcome to my first project:
+# Welcome to my first project
 
-SAFARI RETREAT!
+## SAFARI RETREAT
 
 - PURPOSE:
 
@@ -10,22 +10,23 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 - CODE:
 
-  - The code for the social media links in the footer are taken from Love Running project. [URL:] (https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git)
-  - the media querys comments in css are taken from Love Running project. [URL:] (https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git)
-  - used information from the site, [URL:] (https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox) to make the toggle navigation menu stick to the right side
-  - used [URL:] (https://blog.hubspot.com/website/center-div-css#center-div-css) to center the informations text div
-  - code for the hero slide was taken from [URL:] (https://www.youtube.com/watch?v=Ef8LxpRPGRA)
+  - The code for the social media links in the footer are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
+  - the media querys comments in css are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
+  - used information from the site, [https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox] to make the toggle navigation menu stick to the right side
+  - used [https://blog.hubspot.com/website/center-div-css#center-div-css] to center the informations text div
+  - code for the hero slide was taken from [https://www.youtube.com/watch?v=Ef8LxpRPGRA]
+  - code for the slide for the retreat images for the bigger screens (992px and up) come from [https://www.youtube.com/watch?v=z74ExMz-cWU]
 
 - TECHNOLOGIES
 
-  - icons in subheadings and footer are from [URL:] (https://fontawesome.com/)
-  - [URL:](https://validator.w3.org/nu/) to validate html code
-  - [URL:](https://jigsaw.w3.org/css-validator/) to validate css code
-  - [URL:](https://www.pexels.com/sv-se/) and [URL:] (https://pikwizard.com/) for images
-  - favicon from [URL:] (https://fontawesome.com/icons/puzzle-piece?f=classic&s=solid&pc=%234e6858)
-  - used [URL:](https://favicon.io/favicon-converter/) to generate the favicon
-  - [URL:] (https://www.remove.bg/) to remove background from favicon
-  - video in safari section in the index.html page from [URL:] (https://www.youtube.com/watch?v=Krh9ccPOx-M)
+  - icons in subheadings and footer are from [https://fontawesome.com/]
+  - [https://validator.w3.org/nu/] to validate html code
+  - [https://jigsaw.w3.org/css-validator/] to validate css code
+  - [https://www.pexels.com/sv-se/] and [https://pikwizard.com/] for images
+  - favicon from [ttps://fontawesome.com/icons/puzzle-piece?f=classic&s=solid&pc=%234e6858]
+  - used [https://favicon.io/favicon-converter/] to generate the favicon
+  - [https://www.remove.bg/] to remove background from favicon
+  - video in safari section in the index.html page from [https://www.youtube.com/watch?v=Krh9ccPOx-M]
 
 - BUGS:
 
@@ -43,13 +44,13 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 - DEPLOYMENT:
 
-This project was deployed to Github.com. The following steps shows how you do it: 
-1. Log in to your Github. 
-2. Go to the Safari Retreat repository in Github: [URL:](https://github.com/Kimskogfelter/Safari-Retreat) 
-3. Select Settings in the repository navigation menu at the top. 
-4. Select Pages at the left handside of the website. 
-5. Choose: Deploy from a branch as Source. 
-6. Choose: Main as branch and /root as folder and press save. 
-7. Wait a few minutes and press the Code menu to the top left. 
-8. At the right handside go to Deployment. 
-9. Then press the /images/deployment-icon.jpg to go to the live website.
+    This project was deployed to Github.com. The following steps shows how you do it:
+  1. Log in to your Github.
+  2. Go to the Safari Retreat repository in Github: [https://github.com/Kimskogfelter/Safari-Retreat]
+  3. Select Settings in the repository navigation menu at the top.
+  4. Select Pages at the left handside of the website.
+  5. Choose: Deploy from a branch as Source.
+  6. Choose: Main as branch and /root as folder and press save.
+  7. Wait a few minutes and press the Code menu to the top left.
+  8. At the right handside go to Deployment.
+  9. Then press the /images/deployment-icon.jpg to go to the live website.
