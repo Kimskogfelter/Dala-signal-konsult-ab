@@ -786,8 +786,6 @@ justify-content: center;
     }
 
         #retreat-images {
-            column-count: 2;
-            column-gap: 0;
             order:1
     
         }
