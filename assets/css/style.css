@@ -806,6 +806,7 @@ justify-content: center;
 
         #safari div {
             display: flex;
+            
         }
 
         #safari-video {
@@ -816,6 +817,7 @@ justify-content: center;
         #safari-text-and-video {
             display: flex;
             flex-direction: column;
+            justify-content: space-evenly;
         }
 
         
