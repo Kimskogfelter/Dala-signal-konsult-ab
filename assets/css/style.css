@@ -788,6 +788,13 @@ justify-content: center;
             
         }
 
+        /* makes the retreat and safari section come at one row */
+
+        #retreat-and-safari-section-992px {
+
+            display: flex;
+        }
+
         /* safari section */
 
         #safari div {
@@ -798,6 +805,8 @@ justify-content: center;
             width: 50vw;
             height: 50vh;
         }
+
+        
    
            
            /* SAFARI-GALLERY.HTML PAGE */
