@@ -795,9 +795,10 @@ justify-content: center;
             
         }
 
-                 #retreat-images {
-                     order: 1;
-                     column-count: 2; }
+        #retreat-images {
+            order: 1;
+            column-count: 2; 
+        column-gap: 0;}
 
 
        
