@@ -713,6 +713,11 @@ justify-content: center;
 
     /* safari section */
 
+    #safari-text-and-video {
+        display: flex;
+        justify-content: center;
+    }
+
     
     #safari-div-text {
 
