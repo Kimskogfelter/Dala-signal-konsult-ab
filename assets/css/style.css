@@ -809,8 +809,9 @@ justify-content: center;
         }
 
         #safari-video {
-            width: 50vw;
-            height: 50vh;
+            margin:auto
+            width: 80%;
+            height: 80%;
         }
 
         #safari-text-and-video {
