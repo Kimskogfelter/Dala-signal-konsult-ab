@@ -511,9 +511,9 @@ display: flex;
   margin-bottom: 10px;
 }
 
-/* THANKYOU-PAGE.HTML */
+/* THANKYOU-BOOKING-PAGE.HTML */
 
-#thank-you-page {
+#thank-you-booking-page {
 background: url(../images/cheetah-close-up.jpeg) no-repeat;
 background-size: cover;
 width: 100vw;
@@ -523,7 +523,7 @@ justify-content: center;
  
 }
 
-#thank-you-div-bg {
+#thank-you-booking-page div {
   background-color: #97afa7d0;
   width: 250px;
   height: 300px;
@@ -532,7 +532,7 @@ justify-content: center;
  
 }
 
-#thank-you-page h2 {
+#thank-you-booking-page h2 {
   margin-top: 15px;
   margin-bottom: 40px;
   color: white;
@@ -541,7 +541,7 @@ justify-content: center;
   justify-content: center;
 }
 
-#thank-you-div-bg p {
+#thank-you-booking-page p {
   color: white;
   line-height: 1;
 }
