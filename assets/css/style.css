@@ -716,7 +716,7 @@ justify-content: center;
     #safari-text-and-video {
         display: flex;
         justify-content: center;
-        flex-direction: column;
+       
     }
 
     
@@ -810,6 +810,11 @@ justify-content: center;
         #safari-video {
             width: 50vw;
             height: 50vh;
+        }
+
+        #safari-text-and-video {
+            display: flex;
+            flex-direction: column;
         }
 
         
