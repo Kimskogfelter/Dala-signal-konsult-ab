@@ -730,6 +730,8 @@ justify-content: center;
 
     #safari-video {
         height: 500px;
+        margin: auto;
+        width: 80%;
         
     
     }
