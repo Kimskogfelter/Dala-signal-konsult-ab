@@ -716,6 +716,7 @@ justify-content: center;
     #safari-text-and-video {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 
     
