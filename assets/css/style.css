@@ -778,7 +778,12 @@ justify-content: center;
 
     /* retreat section */
 
-    #retreat-images {
+    #retreat {
+        width: 50vw;
+        margin: auto;
+    }
+
+        #retreat-images {
             column-count: 2;
             column-gap: 0;
             order:1
@@ -803,6 +808,11 @@ justify-content: center;
         }
 
         /* safari section */
+
+                #safari {
+                    width: 50vw;
+                    margin: auto;
+                }
 
         #safari div {
             display: flex;
