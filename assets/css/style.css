@@ -746,6 +746,11 @@ justify-content: center;
         margin-top:0;
     }
 
+    /* CONTACT-US.HTML */
+
+        #contact-us-section div {
+            margin-top: 150px;
+        }
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
