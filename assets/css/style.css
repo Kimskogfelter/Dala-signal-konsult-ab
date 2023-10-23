@@ -304,7 +304,7 @@ border-radius: 40px;
 
 /* removed underline under <a> and changed color */
 
-#safari div {
+#safari-div-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
