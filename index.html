@@ -104,6 +104,7 @@
           
             <h3>retreat <i class="fa-solid fa-people-roof"></i></h3>
             <hr/>
+            <!--retreat text-->
             <div class="div-center">
               <p>
                 Do you want to wake up to the sunrise and see over all of the
@@ -112,36 +113,54 @@
                 from a big menu of different foods and activities.
               </p>
             </div>
-           
-            <div id="retreat-images">
-              <div class="retreat-image" id="slide-1">
+           <!--retreat images-->
+            <div id="retreat-images" class="retreat-slider-992px">
+                <input type="radio" name="images" id="i1">
+                <input type="radio" name="images" id="i2">
+                <input type="radio" name="images" id="i3">
+                <input type="radio" name="images" id="i4">
+              <div class="retreat-image" class="slide-img" id="slide-1">
                 <img
                   src="assets/images/man-and-woman-sitting-by-pool.jpeg"
                   alt="man and woman sitting by a pool smiling"
                 />
+                <label for="i4" class="pre"></label>
+                <label for="i2" class="nxt"></label>
               </div>
 
-              <div class="retreat-image" id="slide-2">
+              <div class="retreat-image" class="slide-img" id="slide-2">
                 <img
                   src="assets/images/man-and-woman-smiling-and-shaving-mans-face.jpeg"
                   alt="man and woman standing in bathroom shavings the mans face"
                 />
+                <label for="i1" class="pre"></label>
+                <label for="i3" class="nxt"></label>
               </div>
 
-              <div class="retreat-image" id="slide-3">
+              <div class="retreat-image" class="slide-img" id="slide-3">
                 <img
                   src="assets/images/man-and-woman-holding-hands-standing-on-the-porch.jpeg"
                   alt="man and woman holding hands at the porch looking out at the savannah"
                 />
+                <label for="i2" class="pre"></label>
+                <label for="i4" class="nxt"></label>
               </div>
 
-              <div class="retreat-image" id="slide-4">
+              <div class="retreat-image" class="slide-img" id="slide-4">
                 <img
                   src="assets/images/chef-preping-food-on-a-wooden-plate.jpeg"
                   alt="chef preparing food on plates made by wood"
                 />
+                <label for="i3" class="pre"></label>
+                <label for="i1" class="nxt"></label>
               </div>
-
+            <!--dots for slider-->
+            <div class="nav-dots"> 
+                <label class="dots" id="dot1" for="i1"></label>
+                <label class="dots" id="dot2" for="i2"></label>
+                <label class="dots" id="dot3" for="i3"></label>
+                <label class="dots" id="dot4" for="i4"></label>
+            </div>
             
             </div>
 
