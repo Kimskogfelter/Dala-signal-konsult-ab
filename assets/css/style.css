@@ -857,6 +857,35 @@ justify-content: center;
                     z-index: 99;
                 }
 
+                .dots {
+                    top: -5px;
+                    width: 18px;
+                    height: 18px;
+                    margin: 0 4px;
+                    position: relative;
+                    border-radius: 50%;
+                    display: inline-block;
+                    background: rgba(0, 0, 0,.8)
+                }
+
+                .slide-img {
+                    z-index: -1;
+                }
+
+                #i1:checked ~ #one,
+                #i2:checked ~ #two,
+                #i3:checked ~ #three,
+                #i4:checked ~ #four {
+                    z-index: 9;
+                }
+
+            #i1:checked ~ .nav-dots #dot1,
+            #i2:checked ~ .nav-dots #dot2,
+            #i3:checked ~ .nav-dots #dot3,
+            #i4:checked ~ .nav-dots #dot4 {
+                background:  #fff;
+            }
+
        
 
         /* makes the retreat and safari section come at one row */
