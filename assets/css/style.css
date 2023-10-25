@@ -405,7 +405,7 @@ img {
 /* BOOKING-PAGE.HTML PAGE */
 
 #bookingpage {
-  background: url(../images/cheetah-close-up.jpeg) no-repeat;
+  background: url(../images/bookingpagebg.webp) no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -461,7 +461,7 @@ border-radius: 20px;
 /* CONTACT-US.HTML */
 
 #contact-us-body-bg-img {
-  background: url(../images/man-feeding-giraffe-in-village.jpeg) center
+  background: url(../images/contactusbg.webp) center
     center/cover no-repeat;
   width: 100vw;
   height: 100vh;
