@@ -732,6 +732,14 @@ border-radius: 20px;
   #contact-us-section div {
     margin-top: 150px;
   }
+
+  /* THANKYOU-BOOKING-PAGE.HTML */
+  
+  #thank-you-booking-page div {
+    
+    width: 400px;
+    height: 250px;
+  }
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
