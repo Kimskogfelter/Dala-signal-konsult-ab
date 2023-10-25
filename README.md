@@ -100,20 +100,19 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### WIREFRAMES
 
-#### Home Page
+#### HOME PAGE
 
-![Home page made in wireframes](assets/images/readme/wireframes/home-page.webp)
+![Home page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/home-page.webp)
 
-#### Safari Gallery Page
+#### SAFARI GALLERY PAGE
+![Safari gallery page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/safari-gallery.webp)
 
-![Safari gallery page made in wireframes](assets/images/readme/wireframes/safari-gallery.webp)
+#### BOOKING PAGE
 
-#### Booking Page
+![Booking page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/booking-page.webp)
 
-![Booking page made in wireframes](assets/images/readme/wireframes/booking-page.webp)
+#### CONTACT US PAGE
 
-#### Contact Us Page
-
-![Contact Us page made in wireframes](assets/images/readme/wireframes/contact-us.webp)
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/contact-us.webp)
 
 
