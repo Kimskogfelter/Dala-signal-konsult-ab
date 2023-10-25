@@ -53,13 +53,46 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 #### Header and navigation bar/menu
 
- - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menu at the top at the right side of the header logo. Users can easy find the websites different pages through the navigation menu where you can go to the Safari Gallery, Booking Page or Contact Us page. The logo in the top left corner of the navigation bar is also a link to the home page. The user can see both the logo and navigation menu easy because of the color scheme of darkgreen and white. 
+ - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menus at the top at the right side of the header logo. 
+ - Users can easy find the websites different pages through the navigation menu where you can go to the Safari Gallery, Booking Page or Contact Us page. 
+ - The logo in the top left corner of the navigation bar is also a link to the home page.
+ - The user can see both the logo and navigation menu easy because of the color scheme of darkgreen and white
 
-![picture of the header and navigation bar for screens bigger then 768px]()
+![picture of the header and navigation bar for screens bigger then 768px](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/header-and-navbar.jpg)
 
 - For mobile phones the navigation menu tursn into a bar icon which they can click on to activate the navigation menu
 
-![picture of the header and navigation bar for mobile phones]()
+![picture of the header and navigation bar for mobile phones](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/header-and-navbar-mobile.jpg)
+
+#### Hero Image
+
+- The hero image is the first thing you notice when you enter the website. The goal is to make the users want to book a trip to see the beautiful animals thats shown in the hero image
+- The hero image also got a slideshow that automatic change the images after a few seconds
+- Users can also see the yellow and green heading that draws your eyes to it. The goal is that the users want to continue to read further down on the website and see what Safari Retreat got to offer
+
+![picture of hero image and heading under it](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/hero-image.jpg)
+
+#### Retreat Section
+
+- The home page got two different sections where the users can read, look at images or view a video
+- The Retreat section tells the user about the retreat where they can choose from different activities during the day or just relax by their own private pool. It also got four images to show how the room, food and porch looks like
+
+![picture of Retreat section at the home page]()
+
+#### Safari Section
+
+- The Safari section tells the user about the safari and what a experience that is that you dont want to miss 
+- Users can choose to only book the safari for the trip and then need to contact the Safari Retreat to get help with the booking
+- Users can also watch a video from a safari. The goal is to make people want to book a trip to see it for themselfes
+
+![picture of Safari section at the home page]()
+
+#### Safari Gallery
+
+- Its at the Safari Gallery page that users can see images from the safari that Safari Retreat offers
+- Its goal is to make the users want to book the safari by showing all the beautiful pictures of the different animals in the african savannah
+
+![picture of safari gallery page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/safari-gallery-page.jpg)
 
 ### CODE
 
