@@ -709,7 +709,7 @@ border-radius: 20px;
   /* safari video */
 
   #safari-video {
-    height: 100vh;
+    height: 80%;
     width: 80%;
     margin: auto;
   }
