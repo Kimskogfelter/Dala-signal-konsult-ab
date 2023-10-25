@@ -96,3 +96,24 @@ It's a website for people who are looking forward to relax in the sun or go on a
   7. Wait a few minutes and press the Code menu to the top left.
   8. At the right handside go to Deployment.
   9. Then press the /images/deployment-icon.jpg to go to the live website.
+
+
+### WIREFRAMES
+
+#### Home Page
+
+![Home page made in wireframes](assets/images/readme/wireframes/home-page.webp)
+
+#### Safari Gallery Page
+
+![Safari gallery page made in wireframes](assets/images/readme/wireframes/safari-gallery.webp)
+
+#### Booking Page
+
+![Booking page made in wireframes](assets/images/readme/wireframes/booking-page.webp)
+
+#### Contact Us Page
+
+![Contact Us page made in wireframes](assets/images/readme/wireframes/contact-us.webp)
+
+
