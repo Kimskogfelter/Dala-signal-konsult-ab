@@ -222,6 +222,7 @@ nav {
   letter-spacing: 1px;
   word-spacing: 1px;
   position: absolute;
+  border-radius: 20px;
 }
 
 #hero-div-bg p {
