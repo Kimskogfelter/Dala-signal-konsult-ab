@@ -709,8 +709,9 @@ border-radius: 20px;
   /* safari video */
 
   #safari-video {
-    height: 100%;
+    height: 100vh;
     width: 80%;
+    margin: auto;
   }
 
   /* SAFARI-GALLERY.HTML PAGE */
