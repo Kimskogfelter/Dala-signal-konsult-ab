@@ -451,6 +451,7 @@ img {
   width: 270px;
   height: 450px;
   margin-top: 150px;
+border-radius: 20px;
 }
 
 #bookingpage-bg h3 {
