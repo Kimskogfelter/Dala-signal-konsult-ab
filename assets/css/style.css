@@ -118,7 +118,7 @@ body {
 
 /* hover effect on nav menu */
 #nav-menu a:hover {
-border-bottom: solid 2px white;
+  border-bottom: solid 2px white;
 }
 
 /* active link color on nav menu */
@@ -156,55 +156,57 @@ nav {
 
 /* hero slide */
 .hero-slides {
-    height: 70vh;
-    overflow: hidden;
-    position: relative;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 50px;
-    display: flex;
-    align-items: flex-end;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+  display: flex;
+  align-items: flex-end;
 }
 
 .slide {
-    position: absolute;
-    height: 100%;
-    opacity: 0;
-    inset: 0;
-    animation: slide-show 12s infinite;
+  position: absolute;
+  height: 100%;
+  opacity: 0;
+  inset: 0;
+  animation: slide-show 12s infinite;
 }
 
 .slide-2 {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 .slide-3 {
-    animation-delay: 8s;
+  animation-delay: 8s;
 }
 
 .slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-@keyframes slide-show{ 
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 1;
-    }
-    20%,
-    30% {
-        opacity: 1;
-        scale: 1.03;
-    }
-    50% {
-        opacity: 0;
-    }
+@keyframes slide-show {
+  0% {
+    opacity: 0;
+  }
 
-}  
+  10% {
+    opacity: 1;
+  }
+
+  20%,
+  30% {
+    opacity: 1;
+    scale: 1.03;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
 
 /* hero div with text */
 
@@ -220,7 +222,6 @@ nav {
   letter-spacing: 1px;
   word-spacing: 1px;
   position: absolute;
-  
 }
 
 #hero-div-bg p {
@@ -243,9 +244,9 @@ nav {
   background-color: #f0c66dd0;
   padding-top: 20px;
   padding-bottom: 20px;
-  top:0;
-  left:0;
-  right:0;
+  top: 0;
+  left: 0;
+  right: 0;
   margin: 0;
   margin-bottom: 20px;
 }
@@ -253,6 +254,8 @@ nav {
 #info p {
   margin: 8px;
 }
+
+/* retreat images slider */
 
 /* Retreat section */
 
@@ -264,29 +267,28 @@ nav {
 }
 
 #retreat hr {
-    margin: 0;
+  margin: 0;
 }
 
 #retreat h3 {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .div-center {
-display: flex;
-justify-content: center;
-text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .retreat-image {
-margin: 20px;
-
+  margin: 20px;
 }
 
 .retreat-image img {
-width: 100%;
-height: 100%;
-border-radius: 40px;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
 }
 
 #retreat i {
@@ -305,11 +307,11 @@ border-radius: 40px;
 /* removed underline under <a> and changed color */
 
 #safari-div-text {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
 }
 
 #safari a {
@@ -319,16 +321,16 @@ border-radius: 40px;
 }
 
 #safari h3 {
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* safari video */
 
 #safari-video {
-    width: 100%;
-    border-radius: 40px;
-    border: 1px solid white;
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid white;
 }
 
 /* safari times section, hidden for now */
@@ -339,7 +341,6 @@ justify-content: center;
   flex-direction: column;
   /* hides the safari-times section */
   display: none;
-  
 }
 
 #safari-times h3 {
@@ -349,7 +350,7 @@ justify-content: center;
 #safari-times div {
   border: white solid 2px;
   background-color: rgba(0, 0, 0, 0.726);
-    text-align: center;
+  text-align: center;
 }
 
 #safari-times p {
@@ -379,11 +380,11 @@ hr {
 }
 
 #follow-us {
-    color: #4e6458;
-    display: flex;
-    margin-top: 10px;
-    text-transform: uppercase;
-    font-family: "Raleway", sans-serif;
+  color: #4e6458;
+  display: flex;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
 }
 
 #footer {
@@ -407,20 +408,19 @@ img {
   background-size: cover;
   width: 100vw;
   height: 100vh;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #bookingpage h2 {
   color: white;
-  
 }
 
 #bookingpage form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #bookingpage input {
@@ -454,7 +454,6 @@ img {
 
 #bookingpage-bg h3 {
   color: #ffffff;
-
 }
 
 /* CONTACT-US.HTML */
@@ -467,10 +466,9 @@ img {
 }
 
 #contact-us-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #contact-us-section div {
@@ -479,9 +477,9 @@ img {
   height: 510px;
   margin-top: 100px;
   padding: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 #contact-us-section p {
@@ -514,14 +512,12 @@ img {
 /* THANKYOU-BOOKING-PAGE.HTML */
 
 #thank-you-booking-page {
-background: url(../images/cheetah-close-up.jpeg) no-repeat;
-background-size: cover;
-width: 100vw;
-height: 100vh;
-display: flex;
-justify-content: center;
-
- 
+  background: url(../images/cheetah-close-up.jpeg) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 #thank-you-booking-page div {
@@ -532,11 +528,10 @@ justify-content: center;
   padding: 10px;
   display: flex;
   text-align: center;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 #thank-you-booking-page h3 {
- 
   margin-bottom: 40px;
   color: white;
 }
@@ -549,333 +544,280 @@ justify-content: center;
 /* THANKYOU-CONTACT-PAGE.HTML */
 
 #thank-you-contact-page {
-    background: url(../images/man-feeding-giraffe-in-village.jpeg) center center/cover no-repeat;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  background: url(../images/man-feeding-giraffe-in-village.jpeg) center
+    center/cover no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-
-
 #thank-you-contact-page div {
-    background-color: #97afa7d0;
-    width: 340px;
-    height: 200px;
-    margin-top: 150px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  background-color: #97afa7d0;
+  width: 340px;
+  height: 200px;
+  margin-top: 150px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 #thank-you-contact-page p {
-    color: white;
+  color: white;
 }
 
 #thank-you-contact-page h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
 }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
-    #hero-div-bg {
-        padding-bottom: 10px;
-    }
-   
+  #hero-div-bg {
+    padding-bottom: 10px;
+  }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+  /* header */
 
-    /* header */
+  header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    header {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+  nav {
+    display: block;
+    position: relative;
+    width: fit-content;
+  }
 
-    nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-    }
+  .hidden-navmenu {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-top: 0;
+  }
 
-    .hidden-navmenu {
-        display: flex;
-        flex-direction: column;
-        width: 450px;
-        margin-top: 0;
-        
-        
-    }
-
-    #nav-menu {
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-       width: 450px;
+  #nav-menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 450px;
     justify-content: space-between;
-      
-       
-    }
+  }
 
-    #nav-menu li {
-        padding-left: 2px;
-        padding-right: 7px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        width: fit-content;
-    }
+  #nav-menu li {
+    padding-left: 2px;
+    padding-right: 7px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: fit-content;
+  }
 
-    #nav-home {
-        width: 70px;
-    }
+  #nav-home {
+    width: 70px;
+  }
 
-    #label-checkbox {
-        display: none;
-    }
+  #label-checkbox {
+    display: none;
+  }
 
-    /* INDEX.HTML PAGE */
+  /* INDEX.HTML PAGE */
 
-    /* hero section */
+  /* hero section */
 
-    #hero {
-        margin-top: 47px;
-        height: 400px;
-    }
+  #hero {
+    margin-top: 47px;
+    height: 400px;
+  }
 
-    #hero-div-bg {
-        width: 50vw;
-        height: 15vh;
-        margin-bottom: 40px;
-        margin-left: 40px;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-    }
+  #hero-div-bg {
+    width: 50vw;
+    height: 15vh;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 
-    #hero-div-bg p {
-        font-size: x-large;
-    }
+  #hero-div-bg p {
+    font-size: x-large;
+  }
 
-    /* info section */
+  /* info section */
 
+  #info h2 {
+    margin-bottom: 20px;
+  }
 
-     #info h2 {
-        margin-bottom: 20px;
-     }
-    
-    #info div {
-             margin: auto;
-             width: 70%;
-         }
+  #info div {
+    margin: auto;
+    width: 70%;
+  }
 
-    #info p {
-        font-size: larger;
-        display: flex;
-        text-align: center;
-    }
+  #info p {
+    font-size: larger;
+    display: flex;
+    text-align: center;
+  }
 
+  /* retreat section */
 
+  #retreat p {
+    font-size: larger;
+  }
 
-    /* retreat section */
+  .div-center {
+    margin: auto;
+    width: 80%;
+  }
 
-   
+  #retreat-images {
+    margin: auto;
+    width: 80%;
+  }
 
-    #retreat p {
-        font-size: larger;
-    }
+  /* safari section */
 
-    .div-center {
-        
-        margin: auto;
-        width: 80%;
-            
-    }
+  #safari-text-and-video {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
 
-    #retreat-images {
-            
-            margin: auto;
-            width: 80%;
-    
-        }
-    
-   
-    
+  #safari-div-text {
+    margin: auto;
+    width: 80%;
+  }
 
-    /* safari section */
+  #safari p {
+    font-size: larger;
+  }
 
-    #safari-text-and-video {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-       
-    }
+  /* safari video */
 
-    
-    #safari-div-text {
-
-        
-        margin: auto;
-        width: 80%;
-        
-    }
-
-    #safari p {
-        font-size: larger;
-    }
-
-    /* safari video */
-
-    #safari-video {
-        height: 500px;
-        margin: auto;
-        width: 80%;
-        
-    
-    }
-    
+  #safari-video {
+    height: 500px;
+    margin: auto;
+    width: 80%;
+  }
 
   /* SAFARI-GALLERY.HTML PAGE */
-    #safari-gallery {
-        column-count: 2;
-        column-gap: 5px;
-        margin-top: 50px;
-    }
+  #safari-gallery {
+    column-count: 2;
+    column-gap: 5px;
+    margin-top: 50px;
+  }
 
-    #firstimage {
-        margin-top:0;
-    }
+  #firstimage {
+    margin-top: 0;
+  }
 
-    /* CONTACT-US.HTML */
+  /* CONTACT-US.HTML */
 
-        #contact-us-section div {
-            margin-top: 150px;
-        }
+  #contact-us-section div {
+    margin-top: 150px;
+  }
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+  /* INDEX.HTML PAGE */
 
-    /* INDEX.HTML PAGE */
-
-    /* info section */
- #info div {
+  /* info section */
+  #info div {
     margin: auto;
     width: 50%;
- }
+  }
 
+  /* retreat section */
 
-    
+  #retreat {
+    width: 50vw;
+    margin: auto;
+    align-content: flex-start;
+    margin-top: 37px;
+    margin-right: 6px;
+  }
 
-    /* retreat section */
+  #retreat-image {
+    margin: 0;
+  }
 
-    #retreat {
-        width: 50vw;
-        margin: auto;
-        align-content: flex-start;
-        margin-top:20px
-        
-    }
-    
-        #retreat-image {
-            margin: 0;
-    
-        }
+  .div-center {
+    order: 0;
+  }
 
-        .div-center {
-            order: 0;
-            
-        }
+  #retreat-images {
+    order: 1;
+    column-count: 2;
+    column-gap: 0;
+  }
 
-        #retreat-images {
-            order: 1;
-            column-count: 2; 
-        column-gap: 0;}
+  /* makes the retreat and safari section come at one row */
 
+  #retreat-and-safari-section-992px {
+    display: flex;
+  }
 
-       
+  /* safari section */
 
-        /* makes the retreat and safari section come at one row */
+  #safari {
+    width: 50vw;
+    margin: auto;
+    align-content: flex-start;
+    margin-left: 6px;
+  }
 
-        #retreat-and-safari-section-992px {
+  #safari div {
+    display: flex;
+  }
 
-            display: flex;
-        }
+  #safari-video {
+    margin: auto;
+    width: 70%;
+  }
 
-        /* safari section */
+  #safari-text-and-video {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
 
-                #safari {
-                    width: 50vw;
-                    margin: auto;
-                    align-content: flex-start;
-                    
-                }
-
-        #safari div {
-            display: flex;
-            
-        }
-
-        #safari-video {
-            margin: auto;
-            width: 70%;
-        }
-
-        #safari-text-and-video {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-
-        
-   
-           
-           /* SAFARI-GALLERY.HTML PAGE */
-           #safari-gallery {
-               column-count: 4;
-               column-gap: 5px;
-           }
-
-        }
-
-                  
-        
-               
-
-
+  /* SAFARI-GALLERY.HTML PAGE */
+  #safari-gallery {
+    column-count: 4;
+    column-gap: 5px;
+  }
+}
 
 /* Media query: Screens bigger then 1200px */
 @media screen and (min-width: 1200px) {
+  /* INDEX.HTML PAGE */
 
-    /* INDEX.HTML PAGE */
+  /* hero section */
 
-    /* hero section */
+  #hero {
+    height: 800px;
+  }
 
-    #hero {
-        height: 800px;
-    }
+  #hero-div-bg {
+    width: 550px;
+    height: 150px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+  }
 
-    #hero-div-bg {
-        width: 550px;
-        height: 150px;
-        margin-left: 100px;
-        margin-bottom: 100px;
-       
-    }
-
-    #hero-div-bg p {
-        font-size: 30px;
-        
-    }
-
-      
+  #hero-div-bg p {
+    font-size: 30px;
+  }
 }
