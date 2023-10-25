@@ -53,9 +53,13 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 #### Header and navigation bar/menu
 
- - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menu at the top at the right side of the header logo. Users can easy find the websites different pages through the navigation menu and discover what else you can do on the webpage
+ - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menu at the top at the right side of the header logo. Users can easy find the websites different pages through the navigation menu where you can go to the Safari Gallery, Booking Page or Contact Us page. The logo in the top left corner of the navigation bar is also a link to the home page. The user can see both the logo and navigation menu easy because of the color scheme of darkgreen and white. 
 
-![picture of the header and navigation bar for screens bigger then 768px](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/home-page.webp)
+![picture of the header and navigation bar for screens bigger then 768px]()
+
+- For mobile phones the navigation menu tursn into a bar icon which they can click on to activate the navigation menu
+
+![picture of the header and navigation bar for mobile phones]()
 
 ### CODE
 
