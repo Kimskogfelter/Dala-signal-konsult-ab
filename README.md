@@ -115,4 +115,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/contact-us.webp)
 
+### TESTING 
+
+#### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working. I also tested every page in Lighthouse with the result below
+
 
