@@ -567,6 +567,7 @@ border-radius: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
+  border-radius: 20px;
 }
 
 #thank-you-contact-page p {
