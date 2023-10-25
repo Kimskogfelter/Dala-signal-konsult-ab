@@ -80,8 +80,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### COLOR SCHEME
 
-- #9632f4 for the font for headers, nav-meny and icons
-- #97afa7 for navigation menus font and social media icons in the footer
+- The color scheme through the whole page is #4e6458, #ffffff, #f0c66dd0, #45534b and #97afa7d0.
 
 ### DEPLOYMENT
 
@@ -117,6 +116,57 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### TESTING 
 
-#### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working. I also tested every page in Lighthouse with the result below
+#### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working. 
 
+### LIGHTHOUSE
+
+#### I also tested every page in Lighthouse with the result below
+
+#### Home Page - Mobile version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Homepage-mobile.webp)
+
+#### Home Page - Desktop version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Homepage-desktop.webp)
+
+#### Safari Gallery Page - Mobile version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Safarigallery-mobile.webp)
+
+#### Safari Gallery Page - Desktop version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Safarigallery-desktop.webp)
+
+#### Booking Page - Mobile version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-mobile.webp)
+
+#### Booking Page - Desktop version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-desktop.webp)
+
+#### Contact Us Page - Mobile version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-mobile.webp)
+
+#### Contact Us Page - Desktop version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-desktop.webp)
+
+#### Booking Page, Thank you Page - Mobile version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-thankyou-page-mobile.webp)
+
+#### Booking Page, Thank you page - Desktop version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-thankyou-page-deskttop.webp)
+
+#### Contact Page, Thank you page - Mobile version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-thankyou-page-mobile.webp)
+
+#### Contact Page, Thank you page - Desktop version
+
+![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-thankyou-page-desktop.webp)
 
