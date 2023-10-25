@@ -15,6 +15,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - I want to easy find what the website offers
 - I want to navigate easy through the different menus
 - I want to find the links to other social media platform where I can find more information about Safari Retreat and what they offer
+- I want to book a trip 
   
 #### As a returning and frequent user
 
@@ -48,7 +49,13 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 - A page where users can find information if they want to contact the Safari Retreat for some reasons. They can either call, email or type a message in a message box. - If the users do write a message and submit it they come to a thank you page who tells them that Safari Retreat will be in touch as soon as possible
 
-### WIREFRAMES
+### FEATURES
+
+#### Header and navigation bar/menu
+
+ - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menu at the top at the right side of the header logo. Users can easy find the websites different pages through the navigation menu and discover what else you can do on the webpage
+
+![picture of the header and navigation bar for screens bigger then 768px](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/home-page.webp)
 
 ### CODE
 
@@ -96,7 +103,6 @@ It's a website for people who are looking forward to relax in the sun or go on a
   8. At the right handside go to Deployment.
   9. Then press the /images/deployment-icon.jpg to go to the live website.
 
-
 ### WIREFRAMES
 
 #### HOME PAGE
@@ -104,6 +110,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 ![Home page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/home-page.webp)
 
 #### SAFARI GALLERY PAGE
+
 ![Safari gallery page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/safari-gallery.webp)
 
 #### BOOKING PAGE
@@ -114,9 +121,9 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/contact-us.webp)
 
-### TESTING 
+### TESTING
 
-#### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working. 
+#### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working
 
 ### LIGHTHOUSE
 
@@ -169,4 +176,3 @@ It's a website for people who are looking forward to relax in the sun or go on a
 #### Contact Page, Thank you page - Desktop version
 
 ![lighthouse result for contact us pages, thank you page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-thankyou-page-desktop.webp)
-
