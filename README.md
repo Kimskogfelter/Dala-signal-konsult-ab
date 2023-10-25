@@ -72,12 +72,15 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of hero image and heading under it](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/hero-image.jpg)
 
+#### The home page got two different sections where the users can find information about the retreat and the safari
+
 #### Retreat Section
 
-- The home page got two different sections where the users can read, look at images or view a video
-- The Retreat section tells the user about the retreat where they can choose from different activities during the day or just relax by their own private pool. It also got four images to show how the room, food and porch looks like
+- The Retreat section tells the user about the retreat where they can choose from different activities during the day or just relax by their own private pool. 
+- It also got four images to show how the room, food and porch looks like
+- The goal is to make the users want to book a trip
 
-![picture of Retreat section at the home page]()
+![picture of Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section.jpg)
 
 #### Safari Section
 
@@ -85,7 +88,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - Users can choose to only book the safari for the trip and then need to contact the Safari Retreat to get help with the booking
 - Users can also watch a video from a safari. The goal is to make people want to book a trip to see it for themselfes
 
-![picture of Safari section at the home page]()
+![picture of Safari section at the home page](The home page got two different sections where the users can read, look at images or view a video)
 
 #### Safari Gallery
 
