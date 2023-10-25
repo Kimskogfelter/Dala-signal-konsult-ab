@@ -710,7 +710,6 @@ border-radius: 20px;
 
   #safari-video {
     height: 100%;
-    margin: auto;
     width: 80%;
   }
 
@@ -747,7 +746,7 @@ border-radius: 20px;
   #retreat {
     width: 50vw;
     margin: auto;
-    align-content: flex-start;
+    align-self: flex-start;
     margin-top: 37px;
     margin-right: 5px;
   }
@@ -777,7 +776,7 @@ border-radius: 20px;
   #safari {
     width: 50vw;
     margin: auto;
-    align-content: flex-start;
+    align-self: flex-start;
     margin-left: 5px;
   }
 
