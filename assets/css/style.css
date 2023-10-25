@@ -532,6 +532,7 @@ border-radius: 20px;
   display: flex;
   text-align: center;
   flex-direction: column;
+border-radius: 20px;
 }
 
 #thank-you-booking-page h3 {
@@ -554,6 +555,7 @@ border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 20px;
 }
 
 #thank-you-contact-page div {
