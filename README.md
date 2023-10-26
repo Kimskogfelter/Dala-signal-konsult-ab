@@ -8,14 +8,14 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### UX DESIGN
 
-#### User Stories
+#### USER STORIES
 
 #### As a first time user
 
 - I want to easy find what the website offers
 - I want to navigate easy through the different menus
 - I want to find the links to other social media platform where I can find more information about Safari Retreat and what they offer
-- I want to book a trip 
+- I want to book a trip
   
 #### As a returning and frequent user
 
@@ -27,36 +27,36 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### STRUCTURE
 
-#### Home Page
+#### HOME PAGE
 
 - The first thing the users see it the beautiful slideshow of different animals they can encounter during the safaris
 - It got two different sections where users can read and look at images/video to get more information about what the Safari Retreat offers at the safari and retreat
 - Due to beautiful pictures and a color scheme that is calm and beautiful we want users to want to know more about what the Safari Retreat got to offer
 - The navigation menu at the top shows the three different sub-pages that users can visit
   
-#### Safari Gallery Page
+#### SAFARI GALLERY PAGE
 
 - Offers a beautiful gallery of photos from the different safari rides
 - Want users to be intriged to book a stay at the safari retreat
   
-#### Booking Page
+#### BOOKING PAGE
 
 - A very simple and easy page for the users to make the booking for the Safari Retreat
 - Users need to enter their first and lastname, email address and which date they want to arrive and return home
 - The booking page also got a thank you page when users submit their booking that says that the information about the booking is coming to the emailaddress and that they can call or email Safari Retreat if they got any questions
   
-#### Contact Us
+#### CONTACT US PAGE
 
 - A page where users can find information if they want to contact the Safari Retreat for some reasons. They can either call, email or type a message in a message box. - If the users do write a message and submit it they come to a thank you page who tells them that Safari Retreat will be in touch as soon as possible
 
 ### FEATURES
 
-#### Header and navigation bar/menu
+#### HEADER AND NAVIGATION BAR/MENU
 
- - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menus at the top at the right side of the header logo. 
- - Users can easy find the websites different pages through the navigation menu where they can go to the Safari Gallery, Booking Page or Contact Us page. 
- - The logo in the top left corner of the navigation bar is also a link to the home page.
- - The user can see both the logo and navigation menu easy because of the color scheme of darkgreen and white
+- The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menus at the top at the right side of the header logo.
+- Users can easy find the websites different pages through the navigation menu where they can go to the Safari Gallery, Booking Page or Contact Us page.
+- The logo in the top left corner of the navigation bar is also a link to the home page.
+- The user can see both the logo and navigation menu easy because of the color scheme of darkgreen and white
 
 ![picture of the header and navigation bar for screens bigger then 768px](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/header-and-navbar.jpg)
 
@@ -64,9 +64,9 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the header and navigation bar for mobile phones](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/header-and-navbar-mobile.jpg)
 
-#### Home Page
+#### HOME PAGE
 
-#### Hero Image
+#### HERO IMAGE
 
 - The hero image is the first thing you notice when you enter the website. The goal is to make the users want to book a trip to see the beautiful animals thats shown in the hero image
 - The hero image also got a slideshow that automatic change the images after a few seconds
@@ -76,30 +76,30 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 #### The home page got two different sections where the users can find information about the retreat and the safari
 
-#### Retreat Section
+#### RETREAT SECTION
 
-- The Retreat section tells the user about the retreat where they can choose from different activities during the day or just relax by their own private pool. 
+- The Retreat section tells the user about the retreat where they can choose from different activities during the day or just relax by their own private pool.
 - It also got four images to show how the room, food and porch looks like
 - The goal is to make the users want to book a trip
 
 ![picture of Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section.jpg)
 
-#### Safari Section
+#### SAFARI SECTION
 
-- The Safari section tells the user about the safari and what a experience that is that you dont want to miss 
+- The Safari section tells the user about the safari and what a experience that is that you dont want to miss
 - Users can choose to only book the safari for the trip and then need to contact the Safari Retreat to get help with the booking
 - Users can also watch a video from a safari. The goal is to make people want to book a trip to see it for themselfes
 
 ![picture of Safari section at the home page](The home page got two different sections where the users can read, look at images or view a video)
 
-#### Safari Gallery Page
+#### SAFARI GALLERY PAGE
 
 - Its at the Safari Gallery page that users can see images from the safari tours that Safari Retreat offers
 - Its goal is to make the users want to book the safari by showing all the beautiful pictures of the different animals in the african savannah
 
 ![picture of safari gallery page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/safari-gallery-page.jpg)
 
-#### Booking Page
+#### BOOKING PAGE
 
 - The booking page shows a form that the users need to fill in to book a stay at the Safari Retreat
 - Its very easy to understand because it got labels who describe what the users need to fill in, i order to make the booking form complete
@@ -107,20 +107,21 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page.jpg)
 
-#### Thank you Page for the Booking Page
+#### THANK YOU PAGE FOR THE BOOKING PAGE
 
 - This is the thank you pge the users is taken to when they have made a booking through the booking page
 
 ![picture of the thank you page for the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page-thankyou-page.jpg)
 
-#### Contact Us Page
+#### CONTACT US PAGE
+
 - If users needs to contact the Safari Retreat for some reason they can go to the contact us page which they find in the navigation bar/menu at the top of the page
 - The users can contact the Safari Retreat through phone, email or via a message box
 - Users write their request in the message box and then press the submit button at the bottom of the green transparent background. When the message is submited the user it taken to a thank you page that tells them that they will be contacted as soon as possible
 
 ![picture of the contact us page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/contact-us.jpg)
 
-#### Thank you Page for the Contact Us Page
+#### THANK YOU PAGE FOR THE CONTACT US PAGE
 
 - This it the thank you page the users it taken to if they choose to write and submit a message in the message box at the Contact Us page
 
