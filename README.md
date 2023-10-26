@@ -145,7 +145,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - used information from the site, [https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox] to make the toggle navigation menu stick to the right side
 - used [https://blog.hubspot.com/website/center-div-css#center-div-css] to center the informations text div
 - code for the hero slide was taken from [https://www.youtube.com/watch?v=Ef8LxpRPGRA]
-- code for the slide for the retreat images for the bigger screens (992px and up) come from [https://www.youtube.com/watch?v=z74ExMz-cWU]
+- code for the meta tags for the search engines results are from the Love Running project [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
 
 ### TECHNOLOGIES
 
