@@ -54,7 +54,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 #### Header and navigation bar/menu
 
  - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menus at the top at the right side of the header logo. 
- - Users can easy find the websites different pages through the navigation menu where you can go to the Safari Gallery, Booking Page or Contact Us page. 
+ - Users can easy find the websites different pages through the navigation menu where they can go to the Safari Gallery, Booking Page or Contact Us page. 
  - The logo in the top left corner of the navigation bar is also a link to the home page.
  - The user can see both the logo and navigation menu easy because of the color scheme of darkgreen and white
 
@@ -63,6 +63,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - For mobile phones the navigation menu tursn into a bar icon which they can click on to activate the navigation menu
 
 ![picture of the header and navigation bar for mobile phones](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/header-and-navbar-mobile.jpg)
+
+#### Home Page
 
 #### Hero Image
 
@@ -90,12 +92,39 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of Safari section at the home page](The home page got two different sections where the users can read, look at images or view a video)
 
-#### Safari Gallery
+#### Safari Gallery Page
 
-- Its at the Safari Gallery page that users can see images from the safari that Safari Retreat offers
+- Its at the Safari Gallery page that users can see images from the safari tours that Safari Retreat offers
 - Its goal is to make the users want to book the safari by showing all the beautiful pictures of the different animals in the african savannah
 
 ![picture of safari gallery page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/safari-gallery-page.jpg)
+
+#### Booking Page
+
+- The booking page shows a form that the users need to fill in to book a stay at the Safari Retreat
+- Its very easy to understand because it got labels who describe what the users need to fill in, i order to make the booking form complete
+- At the end it got a reserve button which activates when you click on it and takes the users to a thank you page
+
+![picture of the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page.jpg)
+
+#### Thank you Page for the Booking Page
+
+- This is the thank you pge the users is taken to when they have made a booking through the booking page
+
+![picture of the thank you page for the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page-thankyou-page.jpg)
+
+#### Contact Us Page
+- If users needs to contact the Safari Retreat for some reason they can go to the contact us page which they find in the navigation bar/menu at the top of the page
+- The users can contact the Safari Retreat through phone, email or via a message box
+- Users write their request in the message box and then press the submit button at the bottom of the green transparent background. When the message is submited the user it taken to a thank you page that tells them that they will be contacted as soon as possible
+
+![picture of the contact us page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/contact-us.jpg)
+
+#### Thank you Page for the Contact Us Page
+
+- This it the thank you page the users it taken to if they choose to write and submit a message in the message box at the Contact Us page
+
+![picture of the thank you page for the contact us page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/contact-us-thankyou-page.jpg)
 
 ### CODE
 
