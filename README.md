@@ -218,7 +218,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ---
 
-#### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working
+- #### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working. - #### The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
+- #### I tested that all text is easy to read and to understand
 
 ### LIGHTHOUSE
 
