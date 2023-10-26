@@ -736,6 +736,33 @@ border-radius: 20px;
     margin-top: 0;
   }
 
+  /* BOOKING-PAGE.HTML */
+
+  #bookingpage-bg {
+    margin-top: 150px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  #bookingpage-form-768px form {
+    padding-left: 10px;
+   padding-right: 10px;
+   padding-top: 38px;
+   
+  }
+
+  #bookingpage-text-768px {
+  
+    width: 50%;
+  }
+
+  #bookingpage-text-768px h3 {
+    padding-bottom: 10px;
+  }
+
   /* CONTACT-US.HTML */
 
   #contact-us-section div {
