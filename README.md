@@ -136,16 +136,11 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the thank you page for the contact us page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/contact-us-thankyou-page.jpg)
 
-### CODE
+### COLOR SCHEME
 
 ---
 
-- The code for the social media links in the footer are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
-- the media querys comments in css are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
-- used information from the site, [https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox] to make the toggle navigation menu stick to the right side
-- used [https://blog.hubspot.com/website/center-div-css#center-div-css] to center the informations text div
-- code for the hero slide was taken from [https://www.youtube.com/watch?v=Ef8LxpRPGRA]
-- code for the meta tags for the search engines results are from the Love Running project [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
+- The color scheme through the whole page is #4e6458, #ffffff, #f0c66dd0, #45534b and #97afa7d0.
 
 ### TECHNOLOGIES
 
@@ -159,40 +154,6 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - used [https://favicon.io/favicon-converter/] to generate the favicon
 - [https://www.remove.bg/] to remove background from favicon
 - video in safari section in the index.html page from [https://www.youtube.com/watch?v=Krh9ccPOx-M]
-
-### BUGS
-
----
-
-- when I first deployed this project the images and css code didnt work. the solution was to correct all the pathways to relative ones insted of absolute.
-
-### MEDIA
-
----
-
-[https://www.pexels.com/sv-se/] and [https://pikwizard.com/] for images
-
-### COLOR SCHEME
-
----
-
-- The color scheme through the whole page is #4e6458, #ffffff, #f0c66dd0, #45534b and #97afa7d0.
-
-### DEPLOYMENT
-
----
-
-    This project was deployed to Github.com. The following steps shows how you do it:
-
-1. Log in to your Github.
-2. Go to the Safari Retreat repository in Github: [https://github.com/Kimskogfelter/Safari-Retreat]
-3. Select Settings in the repository navigation menu at the top.
-4. Select Pages at the left handside of the website.
-5. Choose: Deploy from a branch as Source.
-6. Choose: Main as branch and /root as folder and press save.
-7. Wait a few minutes and press the Code menu to the top left.
-8. At the right handside go to Deployment.
-9. Then press the ![picture of the deployment icon on github](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/deployment-icon.jpg) to go to the live website.
 
 ### WIREFRAMES
 
@@ -222,9 +183,11 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
 - I tested that all text is easy to read and to understand
 
-### LIGHTHOUSE
+#### BUGS
 
----
+- when I first deployed this project the images and css code didnt work. the solution was to correct all the pathways to relative ones insted of absolute.
+
+#### LIGHTHOUSE
 
 #### I also tested every page in Lighthouse with the result below
 
@@ -275,3 +238,35 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - #### Contact Page, Thank you page - Desktop version
 
 ![lighthouse result for contact us pages, thank you page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-thankyou-page-desktop.webp)
+
+### DEPLOYMENT
+
+---
+    This project was deployed to Github.com. The following steps shows how you do it:
+
+1. Log in to your Github.
+2. Go to the Safari Retreat repository in Github: [https://github.com/Kimskogfelter/Safari-Retreat]
+3. Select Settings in the repository navigation menu at the top.
+4. Select Pages at the left handside of the website.
+5. Choose: Deploy from a branch as Source.
+6. Choose: Main as branch and /root as folder and press save.
+7. Wait a few minutes and press the Code menu to the top left.
+8. At the right handside go to Deployment.
+9. Then press the ![picture of the deployment icon on github](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/deployment-icon.jpg) to go to the live website.
+
+### CREDITS
+
+---
+
+#### MEDIA
+
+- [https://www.pexels.com/sv-se/] and [https://pikwizard.com/] for images
+
+#### CODE
+
+- The code for the social media links in the footer are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
+- the media querys comments in css are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
+- used information from the site, [https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox] to make the toggle navigation menu stick to the right side
+- used [https://blog.hubspot.com/website/center-div-css#center-div-css] to center the informations text div
+- code for the hero slide was taken from [https://www.youtube.com/watch?v=Ef8LxpRPGRA]
+- code for the meta tags for the search engines results are from the Love Running project [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
