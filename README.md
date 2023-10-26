@@ -4,9 +4,13 @@
 
 ### PURPOSE
 
+---
+
 It's a website for people who are looking forward to relax in the sun or go on a adventure and join the safaris. Or maybe both!
 
 ### UX DESIGN
+
+---
 
 - #### USER STORIES
 
@@ -26,6 +30,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 ### All users want to be able to scroll through the website on their phones without any disturbing events and easy find what they are looking for
 
 ### STRUCTURE
+
+---
 
 - #### HOME PAGE
 
@@ -51,6 +57,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### FEATURES
 
+---
+
 - #### HEADER AND NAVIGATION BAR/MENU
 
 - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menus at the top at the right side of the header logo.
@@ -66,7 +74,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 - #### HOME PAGE
 
-#### HERO IMAGE
+- #### HERO IMAGE
 
 - The hero image is the first thing you notice when you enter the website. The goal is to make the users want to book a trip to see the beautiful animals thats shown in the hero image
 - The hero image also got a slideshow that automatic change the images after a few seconds
@@ -76,7 +84,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 #### The home page got two different sections where the users can find information about the retreat and the safari
 
-#### RETREAT SECTION
+- #### RETREAT SECTION
 
 - The Retreat section tells the user about the retreat where they can choose from different activities during the day or just relax by their own private pool.
 - It also got four images to show how the room, food and porch looks like
@@ -84,7 +92,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section.jpg)
 
-#### SAFARI SECTION
+- #### SAFARI SECTION
 
 - The Safari section tells the user about the safari and what a experience that is that you dont want to miss
 - Users can choose to only book the safari for the trip and then need to contact the Safari Retreat to get help with the booking
@@ -129,6 +137,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### CODE
 
+---
+
 - The code for the social media links in the footer are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
 - the media querys comments in css are taken from Love Running project. [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
 - used information from the site, [https://stackoverflow.com/questions/50178709/set-my-logo-to-the-left-and-navigation-menu-to-the-right-using-flexbox] to make the toggle navigation menu stick to the right side
@@ -137,6 +147,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - code for the slide for the retreat images for the bigger screens (992px and up) come from [https://www.youtube.com/watch?v=z74ExMz-cWU]
 
 ### TECHNOLOGIES
+
+---
 
 - icons in subheadings and footer are from [https://fontawesome.com/]
 - [https://validator.w3.org/nu/] to validate html code
@@ -149,17 +161,25 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### BUGS
 
+---
+
 - when I first deployed this project the images and css code didnt work. the solution was to correct all the pathways to relative ones insted of absolute.
 
 ### MEDIA
+
+---
 
 [https://www.pexels.com/sv-se/] and [https://pikwizard.com/] for images
 
 ### COLOR SCHEME
 
+---
+
 - The color scheme through the whole page is #4e6458, #ffffff, #f0c66dd0, #45534b and #97afa7d0.
 
 ### DEPLOYMENT
+
+---
 
     This project was deployed to Github.com. The following steps shows how you do it:
 
@@ -174,6 +194,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
   9. Then press the /images/deployment-icon.jpg to go to the live website.
 
 ### WIREFRAMES
+
+---
 
 - #### HOME PAGE
 
@@ -193,9 +215,13 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### TESTING
 
+---
+
 #### I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working
 
 ### LIGHTHOUSE
+
+---
 
 #### I also tested every page in Lighthouse with the result below
 
