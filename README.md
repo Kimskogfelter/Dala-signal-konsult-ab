@@ -191,7 +191,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
   6. Choose: Main as branch and /root as folder and press save.
   7. Wait a few minutes and press the Code menu to the top left.
   8. At the right handside go to Deployment.
-  9. Then press the /images/deployment-icon.jpg to go to the live website.
+  9. Then press the ![picture of the deployment icon on github](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/deployment-icon.jpg) to go to the live website.
 
 ### WIREFRAMES
 
