@@ -454,7 +454,6 @@ border-radius: 20px;
 #bookingpage-bg h3 {
   color: #ffffff;
   text-align: center;
-  padding-top: 20px;
   margin-bottom: 0;
 }
 
@@ -775,7 +774,12 @@ border-radius: 20px;
 
     width: 400px;
     height: 320px;
+    
   }
+
+#thank-you-booking-page p {
+    width: 300px;
+        }
 }
 
 /* Media query: Large devices (laptops and desktops, 992px and up) */
