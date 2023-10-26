@@ -413,10 +413,6 @@ img {
   justify-content: center;
 }
 
-#bookingpage h2 {
-  color: white;
-}
-
 #bookingpage form {
   display: flex;
   justify-content: center;
@@ -438,6 +434,7 @@ img {
   border-color: white;
   color: white;
   padding: 10px 15px;
+  margin-top: 5px;
 }
 
 #bookingpage label {
@@ -448,21 +445,24 @@ img {
 /* transparent background */
 #bookingpage-bg {
   background-color: #97afa7d0;
-  width: 320px;
-  height: 600px;
+  width: 300px;
+  height: 570px;
   margin-top: 60px;
 border-radius: 20px;
 }
 
 #bookingpage-bg h3 {
   color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 0;
 }
 
 #bookingpage-bg p {
     color: white;
     text-align: center;
     margin: 10px;
-    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* CONTACT-US.HTML */
@@ -509,6 +509,7 @@ border-radius: 20px;
   border-color: white;
   color: white;
   padding: 10px 15px;
+margin-top: 5px;
 }
 
 #contact-us-section textarea {
