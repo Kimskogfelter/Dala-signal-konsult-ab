@@ -8,7 +8,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### UX DESIGN
 
-#### USER STORIES
+- #### USER STORIES
 
 #### As a first time user
 
@@ -27,31 +27,31 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### STRUCTURE
 
-#### HOME PAGE
+- #### HOME PAGE
 
 - The first thing the users see it the beautiful slideshow of different animals they can encounter during the safaris
 - It got two different sections where users can read and look at images/video to get more information about what the Safari Retreat offers at the safari and retreat
 - Due to beautiful pictures and a color scheme that is calm and beautiful we want users to want to know more about what the Safari Retreat got to offer
 - The navigation menu at the top shows the three different sub-pages that users can visit
   
-#### SAFARI GALLERY PAGE
+- #### SAFARI GALLERY PAGE
 
 - Offers a beautiful gallery of photos from the different safari rides
 - Want users to be intriged to book a stay at the safari retreat
   
-#### BOOKING PAGE
+- #### BOOKING PAGE
 
 - A very simple and easy page for the users to make the booking for the Safari Retreat
 - Users need to enter their first and lastname, email address and which date they want to arrive and return home
 - The booking page also got a thank you page when users submit their booking that says that the information about the booking is coming to the emailaddress and that they can call or email Safari Retreat if they got any questions
   
-#### CONTACT US PAGE
+- #### CONTACT US PAGE
 
 - A page where users can find information if they want to contact the Safari Retreat for some reasons. They can either call, email or type a message in a message box. - If the users do write a message and submit it they come to a thank you page who tells them that Safari Retreat will be in touch as soon as possible
 
 ### FEATURES
 
-#### HEADER AND NAVIGATION BAR/MENU
+- #### HEADER AND NAVIGATION BAR/MENU
 
 - The header is at the top of the website and contains the logo and the navigation bar/menu. For screens bigger then 768px you can see all the different navigation menus at the top at the right side of the header logo.
 - Users can easy find the websites different pages through the navigation menu where they can go to the Safari Gallery, Booking Page or Contact Us page.
@@ -64,7 +64,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the header and navigation bar for mobile phones](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/header-and-navbar-mobile.jpg)
 
-#### HOME PAGE
+- #### HOME PAGE
 
 #### HERO IMAGE
 
@@ -92,14 +92,14 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of Safari section at the home page](The home page got two different sections where the users can read, look at images or view a video)
 
-#### SAFARI GALLERY PAGE
+- #### SAFARI GALLERY PAGE
 
 - Its at the Safari Gallery page that users can see images from the safari tours that Safari Retreat offers
 - Its goal is to make the users want to book the safari by showing all the beautiful pictures of the different animals in the african savannah
 
 ![picture of safari gallery page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/safari-gallery-page.jpg)
 
-#### BOOKING PAGE
+- #### BOOKING PAGE
 
 - The booking page shows a form that the users need to fill in to book a stay at the Safari Retreat
 - Its very easy to understand because it got labels who describe what the users need to fill in, i order to make the booking form complete
@@ -107,13 +107,13 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page.jpg)
 
-#### THANK YOU PAGE FOR THE BOOKING PAGE
+- #### THANK YOU PAGE FOR THE BOOKING PAGE
 
 - This is the thank you pge the users is taken to when they have made a booking through the booking page
 
 ![picture of the thank you page for the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page-thankyou-page.jpg)
 
-#### CONTACT US PAGE
+- #### CONTACT US PAGE
 
 - If users needs to contact the Safari Retreat for some reason they can go to the contact us page which they find in the navigation bar/menu at the top of the page
 - The users can contact the Safari Retreat through phone, email or via a message box
@@ -121,7 +121,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the contact us page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/contact-us.jpg)
 
-#### THANK YOU PAGE FOR THE CONTACT US PAGE
+- #### THANK YOU PAGE FOR THE CONTACT US PAGE
 
 - This it the thank you page the users it taken to if they choose to write and submit a message in the message box at the Contact Us page
 
@@ -175,19 +175,19 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ### WIREFRAMES
 
-#### HOME PAGE
+- #### HOME PAGE
 
 ![Home page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/home-page.webp)
 
-#### SAFARI GALLERY PAGE
+- #### SAFARI GALLERY PAGE
 
 ![Safari gallery page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/safari-gallery.webp)
 
-#### BOOKING PAGE
+- #### BOOKING PAGE
 
 ![Booking page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/booking-page.webp)
 
-#### CONTACT US PAGE
+- #### CONTACT US PAGE
 
 ![Contact Us page made in wireframes](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/wireframes/contact-us.webp)
 
@@ -199,50 +199,50 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 #### I also tested every page in Lighthouse with the result below
 
-#### Home Page - Mobile version
+- #### Home Page - Mobile version
 
 ![lighthouse result for home page, mobile version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Homepage-mobile.webp)
 
-#### Home Page - Desktop version
+- #### Home Page - Desktop version
 
 ![lighthouse result for home page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Homepage-desktop.webp)
 
-#### Safari Gallery Page - Mobile version
+- #### Safari Gallery Page - Mobile version
 
 ![lighthouse result for safari gallery page, mobile version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Safarigallery-mobile.webp)
 
-#### Safari Gallery Page - Desktop version
+- #### Safari Gallery Page - Desktop version
 
 ![lighthouse result for safari gallery page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/Safarigallery-desktop.webp)
 
-#### Booking Page - Mobile version
+- #### Booking Page - Mobile version
 
 ![lighthouse result for booking page, mobile version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-mobile.webp)
 
-#### Booking Page - Desktop version
+- #### Booking Page - Desktop version
 
 ![lighthouse result for booking page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-desktop.webp)
 
-#### Contact Us Page - Mobile version
+- #### Contact Us Page - Mobile version
 
 ![lighthouse result for contact us page, mobile version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-mobile.webp)
 
-#### Contact Us Page - Desktop version
+- #### Contact Us Page - Desktop version
 
 ![lighthouse result for contact us page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-desktop.webp)
 
-#### Booking Page, Thank you Page - Mobile version
+- #### Booking Page, Thank you Page - Mobile version
 
 ![lighthouse result for booking pages, thank you page, mobile version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-thankyou-page-mobile.webp)
 
-#### Booking Page, Thank you page - Desktop version
+- #### Booking Page, Thank you page - Desktop version
 
 ![lighthouse result for booking pages, thank you page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/bookingpage-thankyou-page-deskttop.webp)
 
-#### Contact Page, Thank you page - Mobile version
+- #### Contact Page, Thank you page - Mobile version
 
 ![lighthouse result for contact us pages, thank you page, mobile version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-thankyou-page-mobile.webp)
 
-#### Contact Page, Thank you page - Desktop version
+- #### Contact Page, Thank you page - Desktop version
 
 ![lighthouse result for contact us pages, thank you page, desktop version](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/lighthouse/contactus-thankyou-page-desktop.webp)
