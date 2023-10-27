@@ -307,18 +307,17 @@ nav {
 
 /* removed underline under <a> and changed color */
 
-#safari-div-text {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  width: 100%;
-}
-
 #safari a {
   color: #97afa7;
   padding: 1px;
   text-decoration: none;
+}
+
+#safari-text-and-video {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
 #safari h3 {
@@ -432,7 +431,7 @@ border-radius: 20px;
 #bookingpage-bg h3 {
   color: #ffffff;
   text-align: center;
-  margin-bottom: 0;
+  padding-bottom: 5px;
 }
 
 #bookingpage-bg p {
@@ -679,14 +678,14 @@ border-radius: 20px;
 
   /* safari section */
 
-  #safari-div-text {
-    margin: auto;
-    width: 80%;
-  }
-
   #safari p {
     font-size: larger;
   }
+
+#safari-text-and-video {
+    margin: auto;
+    width: 80%;
+}
 
   /* safari video */
 
@@ -712,27 +711,38 @@ border-radius: 20px;
   #bookingpage-bg {
     margin-top: 150px;
     width: 600px;
-    height: 400px;
+    height: 460px;
     display: flex;
-    align-items: flex-start;
-    justify-content: space-evenly;
+    flex-direction: column;
+
   }
 
-  #bookingpage-form-768px form {
-    padding-left: 10px;
-   padding-right: 10px;
-   padding-top: 38px;
-   
+  #bookingpage-bg h3 {
+
+    font-size: 2rem;
+    margin-bottom: 0;
+    margin-top: 20px;
   }
 
-  #bookingpage-text-768px {
-  
+  #bookingpage-text-and-form-768px {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2.5rem;
+    
+  }
+
+#bookingpage-text-and-form-768px form {
     width: 50%;
-  }
+    margin: auto;
+}
 
-  #bookingpage-text-768px h3 {
-    padding-bottom: 10px;
-  }
+#bookingpage-text-and-form-768px p {
+    width: 50%;
+    font-size: 1.3rem;
+    margin: 2rem;
+    margin-top: 0;
+}
 
   /* CONTACT-US.HTML */
 
@@ -769,22 +779,11 @@ border-radius: 20px;
   #retreat {
     width: 50vw;
     margin: auto;
-    align-self: flex-start;
-    margin-top: 37px;
     margin-right: 5px;
   }
 
   #retreat-image {
     margin: 0;
-  }
-
-  .div-center {
-    order: 0;
-  }
-
-  #retreat-images {
-    order: 1;
-   
   }
 
   /* safari section */
