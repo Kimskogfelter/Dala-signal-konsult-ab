@@ -114,7 +114,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - Its very easy to understand because it got labels who describe what the users need to fill in, i order to make the booking form complete
 - At the end it got a reserve button which activates when you click on it and takes the users to a thank you page
 
-![picture of the booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page.jpg)
+![picture of the new booking page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/booking-page.jpg)
 
 #### THANK YOU PAGE FOR THE BOOKING PAGE
 
