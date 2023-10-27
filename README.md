@@ -91,7 +91,13 @@ It's a website for people who are looking forward to relax in the sun or go on a
   - It also got four images to show how the room, food and porch looks like
   - The goal is to make the users want to book a trip
 
-![picture of Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section.jpg)
+![picture of the old Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section.jpg)
+
+  - I wanted to change how the layout was for the retreat section as it didnt look good with the four pictures like the above images shows
+  - I decided to add one picture of food and make it like two sections, one that shows the hotel room and one thats show the food that Safari Retreat offers
+
+![picture of the new Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section1.jpg)
+![picture of the new Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section2.jpg)
 
 - #### SAFARI SECTION
 
