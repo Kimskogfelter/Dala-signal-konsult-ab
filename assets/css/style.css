@@ -328,13 +328,14 @@ nav {
 
 /* safari video */
 
-#safari-video iframe {
-
-  width: 100%;
-  border-radius: 40px;
-  border: 1px solid white;
-  justify-self: center;
-  display: flex;
+#safari-video {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+        border-radius: 40px;
+        border: 1px solid white;
+        justify-self: center;
+        display: flex;
 }
 
 /* Footer */
@@ -682,15 +683,15 @@ border-radius: 20px;
 #safari-text-and-video {
     margin: auto;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #safari-video {
-    width: 60%;
-    height: 60%;
-}
-#safari-video iframe {
-    height: 70vh;
-    width: 90vw;
+    height: 500px;
+    width: 90%;
 }
 
 
@@ -853,6 +854,13 @@ font-size: 1.3rem;
     width: 50%;
   }
 
+  /* safari video */
+
+  #safari-video {
+      height: 400px;
+      width: 50%;
+  }
+
   /* SAFARI-GALLERY.HTML PAGE */
   #safari-gallery {
     column-count: 4;
@@ -880,4 +888,13 @@ font-size: 1.3rem;
   #hero-div-bg p {
     font-size: 30px;
   }
+
+  /* safari section */
+
+  /* safari video */
+
+   #safari-video {
+       height: 500px;
+       width: 50%;
+   }
 }
