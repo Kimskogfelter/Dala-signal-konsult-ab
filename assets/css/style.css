@@ -200,7 +200,7 @@ nav {
   20%,
   30% {
     opacity: 1;
-    scale: 1.03;
+    transform: scale(1);
   }
 
   50% {
@@ -779,6 +779,14 @@ font-size: 1.3rem;
 @media screen and (min-width: 992px) {
   /* INDEX.HTML PAGE */
 
+  /* parallax effect */
+
+  .parallax {
+
+    background-image: url(assets/images/index.background.jpeg)no-repeat center fixed/cover;
+    
+  }
+
   /* info section */
   #info div {
     margin: auto;
@@ -790,10 +798,12 @@ font-size: 1.3rem;
   #retreat hr {
    width: 80%;
    align-self: center;
+  
   }
 
   .retreat-image {
     margin:0;
+    
   }
 
   #retreat-images {
