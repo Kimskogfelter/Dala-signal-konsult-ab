@@ -2,6 +2,8 @@
 
 ## SAFARI RETREAT
 
+![picture of the mockup of the website](https://raw.githubusercontent.com/Kimskogfelter/Safari-Retreat/main/assets/images/readme/mockup-safari-retreat.webp)
+
 ### PURPOSE
 
 ---
@@ -280,3 +282,5 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - used [https://blog.hubspot.com/website/center-div-css#center-div-css] to center the informations text div
 - code for the hero slide was taken from [https://www.youtube.com/watch?v=Ef8LxpRPGRA]
 - code for the meta tags for the search engines results are from the Love Running project [https://github.com/Code-Institute-Solutions/Love-Running-Solutions.git]
+
+#### All the thanks to the lovely students on slack for helping out when needed and my tutor Ronan for being so supportive and helpfull
