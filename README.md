@@ -95,8 +95,8 @@ It's a website for people who are looking forward to relax in the sun or go on a
 
 ![picture of the old Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section.jpg)
 
-  - I wanted to change how the layout was for the retreat section as it didnt look good with the four pictures like the above images shows
-  - I decided to add one picture of food and make it like two sections, one that shows the hotel room and one thats show the food that Safari Retreat offers
+- I wanted to change how the layout was for the retreat section as it didnt look good with the four pictures like the above images shows
+- I decided to add one picture of food and make it like two sections, one that shows the hotel room and one thats show the food that Safari Retreat offers
 
 ![picture of the new Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section1.jpg)
 ![picture of the new Retreat section at the home page](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/retreat-section2.jpg)
@@ -190,6 +190,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 - I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, image and navigation menu was working
 - The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
 - I tested that all text is easy to read and to understand
+- The code got valified through both CSS and HTML validators
 
 #### BUGS
 

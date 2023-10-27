@@ -230,6 +230,7 @@ nav {
   line-height: 1.5;
 }
 
+
 /* Info section */
 
 #info div {
@@ -256,7 +257,7 @@ nav {
   margin: 8px;
 }
 
-/* retreat images slider */
+
 
 /* Retreat section */
 
@@ -385,10 +386,10 @@ img {
 /* BOOKING-PAGE.HTML PAGE */
 
 #bookingpage {
-  background: url(../images/bookingpagebg.webp) no-repeat;
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+background: url(../images/bookingpagebg.webp) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -779,14 +780,7 @@ font-size: 1.3rem;
 @media screen and (min-width: 992px) {
   /* INDEX.HTML PAGE */
 
-  /* parallax effect */
-
-  .parallax {
-
-    background-image: url(assets/images/index.background.jpeg)no-repeat center fixed/cover;
-    
-  }
-
+  
   /* info section */
   #info div {
     margin: auto;
