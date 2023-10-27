@@ -332,30 +332,8 @@ nav {
   width: 100%;
   border-radius: 40px;
   border: 1px solid white;
-}
-
-/* safari times section, hidden for now */
-
-#safari-times {
-  background: url(../images/lion.jpeg) center/ cover;
-  width: 100%;
-  flex-direction: column;
-  /* hides the safari-times section */
-  display: none;
-}
-
-#safari-times h3 {
-  color: #f0c66dd0;
-}
-
-#safari-times div {
-  border: white solid 2px;
-  background-color: rgba(0, 0, 0, 0.726);
-  text-align: center;
-}
-
-#safari-times p {
-  color: white;
+  justify-self: center;
+  display: flex;
 }
 
 /* Footer */
@@ -701,12 +679,6 @@ border-radius: 20px;
 
   /* safari section */
 
-  #safari-text-and-video {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-
   #safari-div-text {
     margin: auto;
     width: 80%;
@@ -812,14 +784,7 @@ border-radius: 20px;
 
   #retreat-images {
     order: 1;
-    column-count: 2;
-    column-gap: 0;
-  }
-
-  /* makes the retreat and safari section come at one row */
-
-  #retreat-and-safari-section-992px {
-    display: flex;
+   
   }
 
   /* safari section */
