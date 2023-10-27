@@ -328,7 +328,8 @@ nav {
 
 /* safari video */
 
-#safari-video {
+#safari-video iframe {
+
   width: 100%;
   border-radius: 40px;
   border: 1px solid white;
@@ -656,7 +657,7 @@ border-radius: 20px;
   }
 
   #info p {
-    font-size: larger;
+    font-size: 1.5rem;
     display: flex;
     text-align: center;
   }
@@ -672,11 +673,6 @@ border-radius: 20px;
     width: 80%;
   }
 
-  #retreat-images {
-    margin: auto;
-    width: 80%;
-  }
-
   /* safari section */
 
   #safari p {
@@ -688,13 +684,16 @@ border-radius: 20px;
     width: 80%;
 }
 
-  /* safari video */
+#safari-video {
+    width: 60%;
+    height: 60%;
+}
+#safari-video iframe {
+    height: 70vh;
+    width: 90vw;
+}
 
-  #safari-video {
-   
-    width: 80%;
-    margin: auto;
-  }
+
 
   /* SAFARI-GALLERY.HTML PAGE */
   #safari-gallery {
@@ -740,9 +739,9 @@ border-radius: 20px;
 
 #bookingpage-text-and-form-768px p {
     width: 50%;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin: 2rem;
-    margin-top: 0;
+    margin-top: 1rem;
 }
 
   /* CONTACT-US.HTML */
@@ -787,19 +786,20 @@ font-size: 1.3rem;
 
   /* retreat section */
 
-  #retreat {
-   
-    margin-right: 5px;
+  #retreat hr {
+   width: 80%;
+   align-self: center;
   }
 
-  #retreat-images {
-    margin: 0;
+  .retreat-image {
+    margin:0;
   }
 
   #retreat-images {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
   }
 
   .div-center {
@@ -808,27 +808,49 @@ font-size: 1.3rem;
     align-items: center;
   }
 
+  .div-center p {
+    width: 50%;
+  }
+
+    #retreat-images p {
+    width: 50%;
+    margin: auto;
+}
+
+
+  #retreat-images-column1 {
+    column-count: 3;
+    margin-bottom: 2rem;
+  }
+
+  #retreat-images-column2 {
+    column-count: 2;
+    margin-top: 2rem;
+  }
+
+  #retreat-images-column2 img {
+    height: 70%;
+    width: 70%;
+    
+  }
+
   /* safari section */
 
-  #safari {
-   
-    align-self: flex-start;
-    margin-left: 5px;
+  safari-text-and-video {
+    display: flex;
+  }
+
+  #safari hr {
+      width: 80%;
+      align-self: center;
   }
 
   #safari div {
     display: flex;
   }
 
-  #safari-video {
-    margin: auto;
-    width: 70%;
-  }
-
-  #safari-text-and-video {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+  #safari p {
+    width: 50%;
   }
 
   /* SAFARI-GALLERY.HTML PAGE */
