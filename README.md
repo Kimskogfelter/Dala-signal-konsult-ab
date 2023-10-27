@@ -260,6 +260,10 @@ It's a website for people who are looking forward to relax in the sun or go on a
 8. At the right handside go to Deployment.
 9. Then press the ![picture of the deployment icon on github](https://github.com/Kimskogfelter/Safari-Retreat/blob/main/assets/images/readme/deployment-icon.jpg) to go to the live website.
 
+### ISSUES 
+
+- The form in the Booking page looks squished together in the firefox browser only. All the other pages looks like they should in firefox, edge and chrome
+
 ### CREDITS
 
 ---

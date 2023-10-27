@@ -779,6 +779,27 @@ font-size: 1.3rem;
 @media screen and (min-width: 992px) {
   /* INDEX.HTML PAGE */
 
+  /* parallax effect */
+
+body,
+    html {
+        height: 100%;
+    } 
+
+    .parallax {
+        /* The image used */
+        background-color: #ffffff;
+
+        /* Full height */
+        height: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
   /* info section */
   #info div {
     margin: auto;
