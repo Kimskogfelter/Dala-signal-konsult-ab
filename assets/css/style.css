@@ -520,7 +520,8 @@ margin-top: 5px;
   display: flex;
   text-align: center;
   flex-direction: column;
-border-radius: 20px;
+    border-radius: 20px;
+
 }
 
 #thank-you-booking-page h3 {
@@ -531,6 +532,10 @@ border-radius: 20px;
 #thank-you-booking-page p {
   color: white;
   line-height: 1;
+  margin: auto;
+
+ 
+  
 }
 
 /* THANKYOU-CONTACT-PAGE.HTML */
