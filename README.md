@@ -265,6 +265,7 @@ It's a website for people who are looking forward to relax in the sun or go on a
 ### ISSUES
 
 - The form in the Booking page looks squished together in the firefox browser only. All the other pages looks like they should in firefox, edge and chrome
+- The IDE i was working with (Code Anywhere) have been very buggy during this time ive been working with this project. The last two weeks I couldnt see any changes I made unless I commited and pushed to Git. Which have made the project get many commits
 
 ### CREDITS
 
